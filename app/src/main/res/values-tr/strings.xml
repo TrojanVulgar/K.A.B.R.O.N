@@ -1,0 +1,206 @@
+<?xml version="1.1" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arr_languages">
+        <item> Arapça </item>
+        <item> İngilizce </item>
+        <item> Fransız </item>
+        <item> İspanyolca </item>
+        <item> Alman </item>
+        <item> Hint </item>
+        <item> İtalyan </item>
+        <item> Endonezya </item>
+        <item> Portekizce </item>
+        <item> Pakistan </item>
+        <item> Türk </item>
+    </string-array>
+
+    <string name = "login_btn_facebook"> Facebook ile bağlan </string>
+    <string name = "login_btn_phone"> Telefon Numarasına Bağlan </string>
+    <string name = "meet_nfun_npeople_nnow"> karşılamak \nEğlence \nİnsanlar \nşimdi </string>
+    <string name = "log_into_holala"> HOLALA\'da Oturum Açın </string>
+    <string name = "enter_mobile_number"> Cep telefonu numarasını girin </string>
+    <string name = "send_sms_code"> SMS kodu gönder </string>
+    <string name = "login_enter_code"> Kodunuzu girin </string>
+    <string name = "login_enter_mobile"> Cep telefonu numaranızı girin </string>
+    <string name = "login_input_resent"> Kodu tekrar gönder </string>
+    <string name = "next_verify"> Sonraki </string>
+    <string name = "login_statement_sms"> Giriş yaparak, <u> Hizmet Şartları </u> ve <u> Gizlilik Politikamızı </u> kabul ettiğinizi onaylamış olursunuz. Cep telefonu numaranızı onaylamanız için bir SMS alacaksınız. SMS ücreti uygulanabilir. </string>
+    <string name = "string_name"> Ad </string>
+    <string name = "age_string"> Yaş </string>
+    <string name = "string_boy"> Erkek çocuk </string>
+    <string name = "string_girtl"> Kız </string>
+    <string name = "string_confirm"> Onayla </string>
+    <string name = "string_gender"> Cinsiyet </string>
+    <string name = "string_birthday"> Doğum günü </string>
+
+    <string name = "un13"> 18 yaşın altındasınız. </string>
+    <string name = "upload_clear_avatar"> Net bir resim yükleyin, daha fazla kişi sizinle konuşmak isteyecektir. </string>
+    <string name = "string_good"> İyi </string>
+    <string name = "string_bad"> Kötü </string>
+    <string name = "me_preview_entrance"> Profilimi Önizle </string>
+    <string name = "strign_settings"> Ayarlar </string>
+    <string name = "notifications"> Bildirimler </string>
+    <string name = "write_a_review"> Yorum Yaz </string>
+    <string name = "about_holala"> HOLALA Hakkında </string>
+    <string name = "send_segges"> Öneri Gönder </string>
+    <string name = "log_out"> Oturumu Kapat </string>
+    <string name = "string_language"> Dil </string>
+    <string name = "version_app"> sürüm </string>
+    <string name = "privac_polic"> <u> Gizlilik Politikası </u> </string>
+    <string name = "privac_polic_title"> Gizlilik Politikası </string>
+    <string name = "terms_of_service"> <u> Hizmet Şartları </u> </string>
+    <string name = "terms_of_service_title"> Hizmet Şartları </string>
+    <string name = "delete_account"> Hesabı Sil </string>
+    <string name = "edit_profile"> Profili Düzenle </string>
+    <string name = "profile_preview"> Profil Önizleme </string>
+    <string name = "edit_profile_picture_subtitle"> Fotoğraflarınızı sıralamak için basın ve sürükleyin. </string>
+    <string name = "edit_profile_school_default"> Okul Ekle </string>
+    <string name = "edit_profile_name_empty_tips"> Bu boş bırakılamaz </string>
+    <string name = "edit_profile_about_me_title"> Hakkında </string>
+    <string name = "edit_profile_about_me_default"> Hakkınızda ilginç bir şeyler paylaşın </string>
+    <string name = "string_school"> Okul </string>
+    <string name = "string_job"> İş </string>
+    <string name = "edit_profile_job_default"> İş Başlığı Ekle </string>
+    <string name = "edit_profile_content_violation_tips"> Profil bilgilerinizde uygunsuz içerik var, lütfen güncelleyin. </string>
+    <string name = "string_chat"> Sohbet </string>
+    <string name = "search_my_friends"> Arkadaşlarımda ara </string>
+    <string name = "string_cancel"> İptal </string>
+    <string name = "string_nearby_mode"> Yakındaki Mod </string>
+    <string name = "string_meet_nearby_people"> Yakındaki Kişilerle Tanışın </string>
+    <string name = "new_match_list_title"> Yeni Arkadaşlar </string>
+    <string name = "string_profile"> Profil </string>
+    <string name = "string_convers"> Konuşmalar </string>
+    <string name = "match_with_others"> Başkalarıyla eşleştir! </string>
+    <string name = "try_now_sting"> Şimdi Dene </string>
+
+    <string name = "tap_the_screen_to_start"> Başlamak için ekrana dokunun </string>
+    <string name = "guys_girls"> Çocuklar &amp; Kızlar </string>
+    <string name = "string_video_filter"> Video Modu Filtresi </string>
+    <string name = "string_voice_filter"> Ses Modu Filtresi </string>
+    <string name = "filter_online_gender_title"> Şununla Eşleştir </string>
+    <string name = "string_girl"> Kız </string>
+    <string name = "string_guy"> Guy </string>
+    <string name = "string_both"> Her ikisi de </string>
+    <string name = "regional_pref_title"> Bölge Tercihi </string>
+    <string name = "str_tags"> Etiketler </string>
+     <string name = "sutitl_splash"> RIFCODE\'dan</string>
+    <string name = "veif_fealed_phone"> Doğrulama Başarısız, lütfen tekrar deneyin. </string>
+    <string name = "very_otp"> OTP doğrulanırken bir hata oluştu </string>
+    <string name = "plnmpho"> Lütfen telefon numaranızı girin </string>
+    <string name = "auth_success"> Kimlik Doğrulama Başarılı </string>
+    <string name = "vercodenovalid"> Girilen doğrulama kodu geçersiz </string>
+    <string name = "enter_verifi_code"> Lütfen doğrulama kodunu girin. </string>
+    <string name = "string_camera"> Kamera </string>
+    <string name = "string_photo"> Fotoğraf </string>
+    <string name = "camera_perms_denied"> Kamera izni reddedildi </string>
+    <string name = "camera_perm_granted"> Kamera izni verildi </string>
+    <string name = "cs"> İZİN GERİ ÖDÜLLERİ OKUYUN SAKLAMA </string>
+    <string name = "csdd"> İZİN DIŞ DEPOLAMA DEVREDE OKUYOR </string>
+    <string name = "cg"> Galeri seç </string>
+    <string name = "toast_image_change_succ_profile"> Görüntünüz Başarılı Bir Şekilde Değiştiriliyor </string>
+    <string name = "dbauthf"> Facebook Kimlik Doğrulaması başarısız oldu. </string>
+    <string name = "lcancl"> Giriş İptal </string>
+
+    <string name = "lod_phone"> Doğrulama telefon numarası… </string>
+    <string name = "pd_uplod_photo"> Fotoğraf yükleniyor… </string>
+    <string name = "entyname"> Lütfen adınızı girin </string>
+    <string name = "greater6name"> adınız 6\'dan büyük olmalı </string>
+    <string name = "data_save_seccff"> Veriler başarıyla kaydedildi. </string>
+    <string name = "clear_cache"> Önbelleği Temizle </string>
+    <string name = "rating_title"> HOLALA\'da eğleniyor musun? </string>
+    <string name = "rating_des_android"> Olumlu bir inceleme ile bize bildirin! </string>
+    <string name = "string_ok"> Tamam </string>
+    <string name = "string_rules"> Kurallar </string>
+    <string name = "string_answers"> Yanıtlar </string>
+    <string name = "string_community"> Topluluk </string>
+    <string name = "are_you_sure_you_want_to_logout"> Çıkış yapmak istediğinizden emin misiniz? </string>
+    <string name = "suggestions"> Öneriler </string>
+    <string name = "send_us_your_suggestions_about_holala_app"> Bize HOLALA uygulaması hakkındaki önerilerinizi gönderin. </string>
+    <string name = "string_send"> GÖNDER </string>
+    <string name = "string_hint_sugges"> Önerinizi burada bırakın </string>
+    <string name = "pu_seggestoion"> Önerinizi lütfen belirtin. </string>
+    <string name = "str_send_segg_test"> Öneriniz başarıyla gönderildi. </string>
+    <string name = "clsucc"> Veri Önbelleğini Başarıyla Temizle </string>
+    <string name = "cldataf"> Veri Önbelleğini Silme Başarısız Oldu </string>
+    <string name = "str_languages"> Diller </string>
+    <string name = "str_nearby"> Yakında </string>
+    <string name = "filter_nearby_title"> Yakındaki Filtre </string>
+    <string name = "filter_nearby_gender_title"> Buluşmak İstiyorum </string>
+    <string name = "enable_gps"> Tekrar deneyin </string>
+    <string name = "str_ops"> Hata! </string>
+    <string name = "must_enable_location"> Cihazınızın konumu devre dışı görünüyor, HOLALA\'yı kullanmak için konuma erişim izni vermeniz gerekiyor. Lütfen tekrar deneyin </string>
+    <string name = "sorry_noflocarion"> Üzgünüz, konumunuz bulunamadı. </string>
+    <string name = "fine_location_perm_granted"> Konum izni verildi </string>
+    <string name = "fine_location_perms_denied"> Konum izni reddedildi </string>
+    <string name = "near_no_people"> Bu anda yakınınızda kimse yok, Daha sonra tekrar deneyin </string>
+    <string name = "about_me"> Hakkımda </string>
+    <string name = "send_message"> Mesaj gönder </string>
+    <string name = "write_new_message"> Bir mesaj yazın </string>
+    <string name = "char_remove_secc"> Mesajlar kaldırıldı ve başarıyla sohbet edin. </string>
+    <string name = "string_unmatch"> Eşleşmeyi Kaldır </string>
+
+    <string name = "stg_report"> Rapor </string>
+    <string name = "inappropriate_photos"> Uygunsuz Fotoğraflar </string>
+    <string name = "profile_is_spam"> Profil Spam\'dir </string>
+    <string name = "report_block"> Bildir &amp; Blok </string>
+    <string name = "strg_confirm"> Onayla </string>
+    <string name = "lose_msg_unmatch"> Eşleşmezseniz bu kullanıcıyla tüm mesajınızı kaybedersiniz. </string>
+    <string name = "are_you_sure"> Emin misiniz? </string>
+    <string name = "searching"> Aranıyor… </string>
+    <string name = "log_fr_tlj_t"> Konuşacak bir arkadaş mı arıyorsunuz </string>
+    <string name = "accept"> Kabul et </string>
+    <string name = "match_found"> ​​Eşleşme Bulundu </string>
+    <string name = "country"> Ülke </string>
+    <string name = "global"> Genel </string>
+    <string name = "str_guys"> Çocuklar </string>
+    <string name = "str_girls"> Kızlar </string>
+    <string name = "st_wait_acce"> Kabul etmenizi bekleyin. </string>
+    <string name = "str_send_reau_seccss"> İstek başarıyla gönderildi. </string>
+    <string name = "stt_send_resfr"> Maçınız bu arkadaşlık isteğini gönderiyor, Reddetmek veya kabul etmek istiyor musunuz? </string>
+    <string name = "tit_fr_rest"> Arkadaşlık İsteği </string>
+    <string name = "str_decl"> Reddet </string>
+    <string name = "g_s_c"> Hediye başarıyla gönderildi. </string>
+    <string name = "vcss"> Video görüşmesi başarıyla gönderildi. </string>
+    <string name = "recent_search"> Son Arama </string>
+    <string name="press_back">Çıkmak için lütfen GERİ\'yi tekrar tıklayın</string>
+    <string name = "in_app_purchases_gems"> Uygulama İçi Satın Alma Değerleri: </string>
+
+    <string name = "in_app_subscriptions"> Uygulama İçi Abonelikler: </string>
+    <string name = "use_send_gift"> Hediye göndermek için kullanın. </string>
+    <string name = "use_for_search_girls"> Kızları aramak için kullanın. </string>
+    <string name = "use_for_change_country_in_search"> Aramada ülkeyi değiştirmek için kullanın. </string>
+    <string name = "use_for_send_message_in_history_search"> Geçmiş aramalı sohbet için kullanın. </string>
+    <string name = "unlimited_searching_girls_change_country"> Sınırsız arama (kızlar / ülke değiştir). </string>
+    <string name = "unlimited_send_gifts"> Sınırsız hediye gönderme. </string>
+    <string name = "unlimited_chat_history_mode"> Sınırsız sohbet geçmişi modu. </string>
+    <string name = "remove_all_ads"> Tüm ADS\'yi kaldırın. </string>
+    <string name = "buy"> Satın al </string>
+    <string name = "purchase_gems"> Değerli Taş Satın Alın </string>
+    <string name = "gems"> Değerli Taşlar </string>
+    <string name = "free_gems"> Ücretsiz Taşlar </string>
+    <string name = "check_in_every_day"> Her gün check-in </string>
+    <string name = "check_in"> Giriş </string>
+
+    <string name = "turn_on"> Aç </string>
+    <string name = "turn_on_notifications"> Açma Bildirimleri </string>
+
+    <string name = "watch_rewarded_video_ads"> Her 30 dakikada bir ödüllü video reklamları izleyin </string>
+    <string name = "watch_ads"> Reklamları İzle </string>
+
+    <string name = "your_first_video_match"> İlk video görüşmeniz. </string>
+    <string name = "firs_voice_match"> İlk sesli aramanız. </string>
+
+    <string name = "earn_strg"> Kazanın </string>
+    <string name = "your_first_friend_match"> İlk arkadaşınız eşleşiyor. </string>
+    <string name = "invite_frens"> Arkadaşlarınızı uygulamayı yüklemeye ve mücevher kazanmak için kaydolmaya davet edin </string>
+    <string name = "inv_str"> Davet Et </string>
+    <string name = "earn_you"> WOOW. Değerli Taşlar Kazandınız </string>
+    <string name = "purch_secc"> Başarıyla Satın Alın </string>
+    <string name = "bilical"> Faturalandırma İptal Edildi </string>
+    <string name = "subseccf"> Abonelik Başarıyla </string>
+    <string name = "free"> ÜCRETSİZ </string>
+    <string name = "month"> Ay </string>
+    <string name = "month_srt"> Aylar </string>
+
+</resources>

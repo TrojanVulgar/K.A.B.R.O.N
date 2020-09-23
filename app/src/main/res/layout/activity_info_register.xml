@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_horizontal"
+    android:background="@color/white_normal"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/ll_register_content"
+        android:background="@color/white_normal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:paddingRight="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_primary_lighter"
+            android:text="1/2"
+            android:gravity="right"
+            android:textSize="@dimen/xxx_large_font"
+            android:fontFamily="@font/avenir_next_demibold"
+            android:layout_margin="@dimen/dp10"
+            />
+        <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48.0dip"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon">
+
+            <TextView android:textSize="20.0sp"
+                android:textColor="@color/gray_primary_lighter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_gender" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingRight="64.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22.0dip"
+                android:layout_marginRight="22.0dip"
+                android:layout_weight="1.0"
+                >
+
+                <ImageView android:id="@+id/imgvGenderInfoRegisterBoy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selector_register_guy_avatar"
+                    android:layout_weight="1.0"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgvGenderInfoRegisterGirl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selector_register_girl_avatar"
+                    android:layout_weight="1.0"
+                     />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout android:id="@id/rl_register_name_background" android:background="@drawable/selector_edit_text_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:layout_marginStart="@dimen/register_seperate_line_margin_horizon" android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon">
+
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_name_area" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+                <TextView android:enabled="false"
+                    android:textSize="@dimen/xxx_large_font"
+                    android:textColor="@color/gray_primary_lighter"
+                    android:id="@+id/tv_edit_name_holder"
+                    android:clickable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_name" />
+
+                <EditText
+                    android:textSize="@dimen/xxx_large_font"
+                    android:gravity="end"
+                    android:id="@+id/edtNameInfoRegister"
+                    android:background="@null"
+                    android:nextFocusUp="@+id/edtNameInfoRegister"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:maxLength="15"
+                    android:layout_centerInParent="true"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:textCursorDrawable="@drawable/shape_edit_text_cursor"
+                    android:fontFamily="@font/avenir_next_demibold" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:id="@id/view_register_name_line"
+            android:background="@color/main_text"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon" android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+        <LinearLayout android:id="@+id/ll_age_area"
+            android:paddingBottom="15.0dip"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38.0dip"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon">
+
+            <TextView android:enabled="false"
+                android:textSize="@dimen/xxx_large_font"
+                android:textColor="@color/gray_primary_lighter"
+                android:gravity="center" android:id="@+id/tv_age_holder"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/string_birthday"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarTextColor="@color/main_text"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:theme="@style/MyDatePicker"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+        <View android:id="@+id/view_age"
+            android:background="@color/main_text"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon" android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+    </LinearLayout>
+
+    <TextView
+        android:enabled="false"
+        android:textSize="@dimen/xxx_normal_font"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/tvNextInfoRegister"
+        android:background="@drawable/selector_register_groupb_btn_next"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/register_button_confirm_height"
+        android:layout_marginTop="@dimen/register_button_confirm_margin_top"
+        android:layout_marginBottom="24.0dip"
+        android:text="@string/next_verify"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
+        android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon" />
+
+
+</RelativeLayout>

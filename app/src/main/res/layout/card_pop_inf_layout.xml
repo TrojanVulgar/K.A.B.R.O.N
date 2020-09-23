@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="bottom"
+    android:orientation="vertical" android:id="@+id/pop_card"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardBackgroundColor="@color/main_text"
+    app:cardCornerRadius="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView android:layout_gravity="top"
+        android:id="@+id/iv_pop_arrow"
+        android:background="@color/gray_cc242323"
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:src="@drawable/icon_arrow_down_white"
+        android:scaleType="center" />
+
+    <ScrollView android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="32.0dip"
+        android:overScrollMode="never" android:requiresFadingEdge="none">
+
+        <LinearLayout android:orientation="vertical"
+            android:paddingBottom="16.0dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+
+            <LinearLayout android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent" android:layout_height="56.0dip">
+
+                <TextView
+                    android:textSize="20.0sp"
+                    android:textColor="@color/white_normal"
+                    android:gravity="start|center"
+                    android:id="@+id/tv_pop_name_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/avenir_next_bold" />
+
+
+                <ImageView android:layout_gravity="end|center"
+                    android:id="@+id/iv_pop_report"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/report"
+                    android:visibility="gone"
+                    android:layout_marginStart="16.0dip"
+                    android:layout_marginEnd="-12.0dip" />
+
+            </LinearLayout>
+
+<!--            <LinearLayout android:gravity="top" -->
+<!--                android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">-->
+
+<!--                <ImageView android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="3.0dip"-->
+<!--                    android:src="@drawable/icon_card_location_distance"-->
+<!--                    android:layout_marginEnd="8.0dip" />-->
+
+<!--                <TextView android:textSize="14.0sp" android:textColor="@color/gray_99ffffff" android:gravity="top" android:id="@id/tv_pop_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/avenir_next_demibold" />-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout android:gravity="top"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:src="@drawable/icon_card_location_distance"
+                    android:layout_marginEnd="8.0dip" />
+
+                <TextView android:textSize="14.0sp"
+                    android:textColor="@color/gray_99ffffff"
+                    android:gravity="center_vertical"
+                    android:id="@+id/tv_pop_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20.0dip"
+                    android:drawablePadding="8.0dip"
+                    android:fontFamily="@font/avenir_next_demibold" />
+
+            </LinearLayout>
+
+            <LinearLayout android:gravity="top"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:src="@drawable/icon_card_education"
+                    android:layout_marginEnd="8.0dip" />
+
+                <TextView android:textSize="14.0sp"
+                    android:textColor="@color/gray_99ffffff"
+                    android:gravity="center_vertical"
+                    android:id="@+id/tv_pop_education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20.0dip"
+                    android:drawablePadding="8.0dip"
+                    android:fontFamily="@font/avenir_next_demibold" />
+
+            </LinearLayout>
+
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3.0dip"
+                    android:src="@drawable/icon_card_career"
+                    android:layout_marginEnd="8.0dip" />
+
+                <TextView android:textSize="14.0sp"
+                    android:textColor="@color/gray_99ffffff"
+                    android:gravity="center_vertical"
+                    android:id="@+id/tv_pop_career"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20.0dip"
+                    android:drawablePadding="8.0dip"
+                    android:fontFamily="@font/avenir_next_demibold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textSize="18.0sp"
+                    android:textColor="@color/white_normal"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_about_me"
+                    android:text="@string/about_me"
+                    android:layout_marginTop="@dimen/dp16"
+                    android:fontFamily="@font/avenir_next_bold" />
+
+                <TextView android:textSize="14.0sp"
+                    android:textColor="@color/gray_99ffffff"
+                    android:gravity="center"
+                    android:id="@+id/tv_pop_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/avenir_next_demibold"
+                    android:textDirection="locale" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

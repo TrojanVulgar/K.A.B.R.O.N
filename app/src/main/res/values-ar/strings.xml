@@ -1,0 +1,205 @@
+<?xml version="1.1" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="arr_languages">
+        <item> العربية </item>
+        <item> الانجليزية </item>
+        <item> الفرنسية </item>
+        <item> الإسبانية </item>
+        <item> الألمانية </item>
+        <item> الهندية </item>
+        <item> الإيطالية </item>
+        <item> الإندونيسية </item>
+        <item> البرتغالية </item>
+        <item> الباكستانية </item>
+        <item> التركية </item>
+    </string-array>
+
+    <string name = "login_btn_facebook"> دخول بحساب فايسبوك </string>
+    <string name = "login_btn_phone"> دخول برقم الهاتف </string>
+    <string name = "meet_nfun_npeople_nnow"> تعارف على أناس جدد </string>
+    <string name = "log_into_holala"> تسجيل الدخول إلى HOLALA </string>
+    <string name = "enter_mobile_number"> أدخل رقم الهاتف المحمول </string>
+    <string name = "send_sms_code"> إرسال رمز SMS </string>
+    <string name = "login_enter_code"> أدخل الرمز الخاص بك </string>
+    <string name = "login_enter_mobile"> أدخل رقم هاتفك المحمول </string>
+    <string name = "login_input_resent"> إعادة إرسال الرمز </string>
+    <string name = "next_verify"> التالي </string>
+    <string name = "login_statement_sms"> بتسجيل الدخول ، أنت تؤكد موافقتك على <u> شروط الخدمة </u> و <u> سياسة الخصوصية </u>. سوف تتلقى رسالة قصيرة لتأكيد رقم هاتفك المحمول. قد يتم تطبيق رسوم SMS. </string>
+    <string name = "string_name"> الاسم </string>
+    <string name = "age_string"> العمر </string>
+    <string name = "string_boy"> فتى </string>
+    <string name = "string_girtl"> فتاة </string>
+    <string name = "string_confirm"> تأكيد </string>
+    <string name = "string_gender"> الجنس </string>
+    <string name = "string_birthday"> عيد الميلاد </string>
+    <string name = "un13"> عمرك أقل من 18 عامًا. </string>
+    <string name = "upload_clear_avatar"> قم بتحميل صورة واضحة ، سيرغب المزيد من الأشخاص في التحدث معك. </string>
+    <string name = "string_good"> جيد </string>
+    <string name = "string_bad"> سيئ </string>
+
+    <string name = "me_preview_entrance"> معاينة الملف الشخصي </string>
+    <string name = "strign_settings"> الإعدادات </string>
+    <string name = "notifications"> الاشعارات </string>
+    <string name = "write_a_review"> ارسال تقييمك لتطبيق </string>
+    <string name = "about_holala"> حول HOLALA </string>
+    <string name = "send_segges"> إرسال الاقتراحات </string>
+    <string name = "log_out"> تسجيل الخروج </string>
+    <string name = "string_language"> اللغة </string>
+    <string name = "version_app"> الإصدار </string>
+    <string name = "privac_polic"> <u> سياسة الخصوصية </u> </string>
+    <string name = "privac_polic_title"> سياسة الخصوصية </string>
+    <string name = "terms_of_service"> <u> شروط الخدمة </u> </string>
+    <string name = "terms_of_service_title"> شروط الخدمة </string>
+    <string name = "delete_account"> حذف الحساب </string>
+    <string name = "edit_profile"> تعديل الملف الشخصي </string>
+    <string name = "profile_preview"> معاينة الملف الشخصي </string>
+    <string name = "edit_profile_picture_subtitle"> اضغط واسحب لترتيب صورك. </string>
+    <string name = "edit_profile_school_default"> إضافة مدرسة </string>
+    <string name = "edit_profile_name_empty_tips"> لا يمكن ترك هذا فارغًا </string>
+    <string name = "edit_profile_about_me_title"> نبذة عنه </string>
+    <string name = "edit_profile_about_me_default"> مشاركة شيء مثير للاهتمام عنك </string>
+    <string name = "string_school"> المدرسة </string>
+    <string name = "string_job"> المهنة </string>
+    <string name = "edit_profile_job_default"> إضافة مسمى عمل </string>
+    <string name = "edit_profile_content_violation_tips"> هناك محتوى غير لائق في معلومات ملفك الشخصي ، يرجى تحديثه. </string>
+    <string name = "string_chat"> الدردشة </string>
+    <string name = "search_my_friends"> ابحث عن أصدقائي </string>
+    <string name = "string_cancel"> إلغاء </string>
+    <string name = "string_nearby_mode"> وضع الجوار </string>
+    <string name = "string_meet_nearby_people"> مقابلة أشخاص بالقرب منك </string>
+    <string name = "new_match_list_title"> أصدقاء جدد </string>
+    <string name = "string_profile"> الملف الشخصي </string>
+    <string name = "string_convers"> المحادثات </string>
+    <string name = "match_with_others"> تطابق مع الآخرين! </string>
+    <string name = "try_now_sting"> جرّب الآن </string>
+    <string name = "tap_the_screen_to_start"> انقر على الشاشة للبدء </string>
+    <string name = "guys_girls"> فتاة أو شاب </string>
+    <string name = "string_video_filter"> فلتر وضع الفيديو </string>
+    <string name = "string_voice_filter"> عامل تصفية وضع الصوت </string>
+    <string name = "filter_online_gender_title"> تطابق مع </string>
+    <string name = "string_girl"> فتاة </string>
+    <string name = "string_guy"> شاب </string>
+    <string name = "string_both"> كلاهما </string>
+    <string name = "regional_pref_title"> تفضيلات المنطقة </string>
+    <string name = "str_tags"> العلامات </string>
+    <string name = "sutitl_splash"> من RIFCODE </string>
+    <string name = "veif_fealed_phone"> فشل التحقق ، يرجى المحاولة مرة أخرى. </string>
+    <string name = "very_otp"> حدث خطأ في التحقق من OTP </string>
+    <string name = "plnmpho"> يرجى إدخال رقم هاتفك </string>
+    <string name = "auth_success"> نجاح المصادقة </string>
+    <string name = "vercodenovalid"> رمز التحقق الذي تم إدخاله غير صالح </string>
+    <string name = "enter_verifi_code"> يرجى إدخال رمز التحقق. </string>
+    <string name = "string_camera"> الكاميرا </string>
+    <string name = "string_photo"> الصورة </string>
+    <string name = "camera_perms_denied"> تم رفض إذن الكاميرا </string>
+    <string name = "camera_perm_granted"> تم منح إذن الكاميرا </string>
+    <string name = "cs"> إذن قراءة التخزين الخارجية الممنوحة </string>
+    <string name = "csdd"> إذن قراءة تم رفض التخزين الخارجي </string>
+    <string name = "cg"> اختر المعرض </string>
+    <string name = "toast_image_change_succ_profile"> تغيير صورتك بنجاح </string>
+    <string name = "dbauthf"> فشلت مصادقة Facebook. </string>
+    <string name = "lcancl"> إلغاء تسجيل الدخول </string>
+    <string name = "lod_phone"> رقم هاتف التحقق … </string>
+    <string name = "pd_uplod_photo"> جارٍ تحميل الصورة … </string>
+    <string name = "entyname"> يرجى إدخال اسمك </string>
+    <string name = "greater6name"> يجب أن يكون اسمك أكبر من 6 </string>
+    <string name = "data_save_seccff"> تم حفظ البيانات بنجاح. </string>
+    <string name = "clear_cache"> محو ذاكرة التخزين المؤقت </string>
+    <string name = "rating_title"> هل تستمتع ببرنامج HOLALA؟ </string>
+    <string name = "rating_des_android"> أخبرنا بمراجعتك الايجابية! </string>
+    <string name = "string_ok"> موافق </string>
+
+    <string name = "string_rules"> القواعد </string>
+    <string name = "string_answers"> الإجابات </string>
+    <string name = "string_community"> المجتمع </string>
+    <string name = "are_you_sure_you_want_to_logout"> هل أنت متأكد من أنك تريد تسجيل الخروج؟ </string>
+    <string name = "suggestions"> الاقتراحات </string>
+    <string name = "send_us_your_suggestions_about_holala_app"> أرسل إلينا اقتراحاتك حول تطبيق HOLALA. </string>
+    <string name = "string_send"> إرسال </string>
+    <string name = "string_hint_sugges"> اترك اقتراحك هنا </string>
+    <string name = "pu_seggestoion"> ضع اقتراحك من فضلك. </string>
+    <string name = "str_send_segg_test"> تم إرسال اقتراحك بنجاح. </string>
+    <string name = "clsucc"> مسح ذاكرة التخزين المؤقت للبيانات بنجاح </string>
+    <string name = "cldataf"> فشل مسح ذاكرة التخزين المؤقت للبيانات </string>
+    <string name = "str_languages"> اللغات </string>
+    <string name = "str_nearby"> قريب مني </string>
+    <string name = "filter_nearby_title"> عامل تصفية قريب </string>
+    <string name = "filter_nearby_gender_title"> أريد اللقاء </string>
+    <string name = "enable_gps"> حاول مرة أخرى </string>
+    <string name = "str_ops"> عفوًا </string>
+    <string name = "must_enable_location"> يبدو أن موقع جهازك معطل ، تحتاج إلى السماح بالوصول إلى الموقع لاستخدام HOLALA. يرجى المحاولة مرة أخرى </string>
+    <string name = "sorry_noflocarion"> عذرًا ، لم يتم العثور على موقعك. </string>
+    <string name = "fine_location_perm_granted"> تم منح إذن الموقع </string>
+    <string name = "fine_location_perms_denied"> تم رفض إذن الموقع </string>
+    <string name = "near_no_people"> لا يوجد أشخاص بالقرب منك في هذه اللحظة ، حاول مرة أخرى لاحقًا </string>
+    <string name = "about_me"> نبذة عني </string>
+    <string name = "send_message"> إرسال رسالة </string>
+    <string name = "write_new_message"> كتابة رسالة </string>
+    <string name = "char_remove_secc"> تمت إزالة الرسائل والدردشة بنجاح. </string>
+    <string name = "string_unmatch"> إلغاء المطابقة </string>
+    <string name = "stg_report"> تقرير </string>
+    <string name = "inappropriate_photos"> الصور غير اللائقة </string>
+    <string name = "profile_is_spam"> الملف الشخصي هو بريد مزعج </string>
+    <string name = "report_block"> ابلاغ او حذر </string>
+    <string name = "strg_confirm"> تأكيد </string>
+    <string name = "lose_msg_unmatch"> ستفقد كل رسالتك مع هذا المستخدم إذا قمت بإلغاء المطابقة. </string>
+    <string name = "are_you_sure"> هل أنت متأكد؟ </string>
+    <string name = "searching"> جارٍ البحث … </string>
+    <string name = "log_fr_tlj_t"> البحث عن صديق للتحدث معه </string>
+    <string name = "accept"> قبول </string>
+    <string name = "match_found"> ​​تم العثور على التطابق </string>
+    <string name = "country"> البلد </string>
+    <string name = "global"> عام </string>
+    <string name = "str_guys"> الشباب </string>
+    <string name = "str_girls"> الفتيات </string>
+    <string name = "st_wait_acce"> انتظر قبولك. </string>
+    <string name = "str_send_reau_seccss"> تم إرسال الطلب بنجاح. </string>
+    <string name = "stt_send_resfr"> تطابقك يرسل طلب الصداقة هذا ، هل تريد الرفض أم القبول؟ </string>
+    <string name = "tit_fr_rest"> طلب صداقة </string>
+    <string name = "str_decl"> رفض </string>
+    <string name = "g_s_c"> تم إرسال الهدية بنجاح. </string>
+    <string name = "vcss"> تم إرسال مكالمة الفيديو بنجاح. </string>
+    <string name = "recent_search"> البحث الأخير </string>
+    <string name="press_back">Please click BACK again to exit</string>
+    <string name = "in_app_purchases_gems"> أحجار كريمة المشتريات داخل التطبيق: </string>
+
+    <string name = "in_app_subscriptions"> اشتراكات داخل التطبيق: </string>
+    <string name = "use_send_gift"> استخدم لإرسال الهدايا. </string>
+    <string name = "use_for_search_girls"> استخدم للبحث عن الفتيات. </string>
+    <string name = "use_for_change_country_in_search"> استخدمه لتغيير الدولة في البحث. </string>
+    <string name = "use_for_send_message_in_history_search"> استخدم للدردشة مع البحث في السجل. </string>
+    <string name = "unlimited_searching_girls_change_country"> بحث غير محدود (الفتيات / تغيير الدولة). </string>
+    <string name = "unlimited_send_gifts"> إرسال هدايا غير محدودة. </string>
+    <string name = "unlimited_chat_history_mode"> وضع سجل الدردشة غير المحدود. </string>
+    <string name = "remove_all_ads"> قم بإزالة كافة الإعلانات. </string>
+    <string name = "buy"> Buy </string>
+    <string name = "purchase_gems"> شراء الأحجار الكريمة </string>
+    <string name = "gems"> جواهر </string>
+    <string name = "free_gems"> جواهر مجانية </string>
+    <string name = "check_in_every_day"> تسجيل الوصول كل يوم </string>
+    <string name = "check_in"> تسجيل الوصول </string>
+
+    <string name = "turn_on"> تشغيل </string>
+    <string name = "turn_on_notifications"> إشعارات التشغيل </string>
+
+    <string name = "watch_rewarded_video_ads"> شاهد إعلانات الفيديو بمكافأة كل 30 دقيقة </string>
+    <string name = "watch_ads"> مشاهدة الإعلانات </string>
+
+    <string name = "your_first_video_match"> أول مكالمة فيديو لك. </string>
+    <string name = "firs_voice_match"> أول مكالمة صوتية لك. </string>
+
+    <string name = "earn_strg"> اربح </string>
+    <string name = "your_first_friend_match"> صديقك الأول المباراة </string>
+    <string name = "invite_frens"> قم بدعوة أصدقائك لتثبيت التطبيق والاشتراك لكسب الأحجار الكريمة </string>
+    <string name = "inv_str"> دعوة </string>
+    <string name = "earn_you"> رائع. لقد ربحت الأحجار الكريمة </string>
+    <string name = "purch_secc"> تم الشراء بنجاح </string>
+    <string name = "bilical"> إلغاء الفواتير </string>
+    <string name = "subseccf"> الاشتراك بنجاح </string>
+    <string name = "free"> مجانًا </string>
+    <string name = "month"> شهر </string>
+    <string name = "month_srt"> شهور </string>
+
+</resources>

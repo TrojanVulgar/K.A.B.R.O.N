@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+       >
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/llPictureSelectDialogPhotos"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/card_report_gray" />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/black_normal_darker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_photo"
+                android:layout_marginStart="16.0dip" />
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/llPictureSelectDialogCamera"
+            android:layout_width="fill_parent" android:layout_height="48.0dip"
+            android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera_gray" />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/black_normal_darker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_camera"
+                android:layout_marginStart="16.0dip" />
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/llPictureSelectDialogCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/register_clear" />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_cancel"
+                android:layout_marginStart="16.0dip" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

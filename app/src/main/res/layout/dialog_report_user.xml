@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.cardview.widget.CardView
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="280.0dip"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white_normal"
+    app:cardCornerRadius="12.0dip"
+    app:cardElevation="@dimen/common_dialog_view_elevation"
+    app:contentPaddingLeft="0.0dip"
+    app:contentPaddingRight="0.0dip">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp10"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_block"
+            android:fontFamily="@font/avenir_next_bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp5"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black72"
+            />
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/llInappropPhotos"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="@drawable/bg_facebook_login_btn"
+            android:layout_margin="@dimen/dp5"
+            android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_photo_inappropriate" />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/white_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inappropriate_photos"
+                android:layout_marginStart="16.0dip" />
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/llProfileSpam"
+            android:layout_width="fill_parent" android:layout_height="40.0dip"
+            android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+            android:background="@drawable/shape_corner_btnlogin_next_sendcode_red"
+            android:layout_margin="@dimen/dp5"
+            >
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_spam" />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/white_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_is_spam"
+                android:layout_marginStart="16.0dip"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/llReportBlockDialogCancel"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="40.0dip"
+            android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/register_clear" />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_cancel"
+                android:layout_marginStart="16.0dip" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

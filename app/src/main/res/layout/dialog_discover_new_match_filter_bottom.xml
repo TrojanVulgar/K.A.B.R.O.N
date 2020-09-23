@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/rl_discvoer_new_match_filter_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true">
+
+
+
+    <FrameLayout android:id="@+id/fl_container_table"
+        android:clickable="true" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+
+
+        <LinearLayout android:orientation="vertical"
+            android:clickable="true"
+            android:id="@+id/ll_discover_new_match_filter_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true">
+
+            <RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="56.0dip">
+
+                <TextView android:textSize="@dimen/x_large_font"
+                    android:textColor="@color/main_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_voice_filter"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/tvTitleBDSRandom"
+                    android:fontFamily="@font/avenir_next_bold" />
+
+            </RelativeLayout>
+
+            <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+            <ScrollView android:id="@+id/sv_scroll_wrapper"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/ll_scroll_content"
+                    android:paddingBottom="8.0dip"
+                    android:clickable="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true">
+
+
+
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="16.0dip">
+
+
+
+                        <LinearLayout android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="@string/filter_online_gender_title"
+                                style="@style/TextViewSettingItemContentStyle" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16.0dip"
+                        android:clickable="true"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginEnd="16.0dip"
+                        android:focusable="true">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:clickable="true"
+                            android:layout_height="wrap_content"
+                            android:focusable="true">
+
+                            <LinearLayout
+                                android:gravity="center_vertical"
+                                android:id="@+id/llFilterDialogChooseGenderGirl"
+                                android:background="@drawable/selector_filter_option"
+                                android:layout_marginEnd="8.0dip"
+                                android:clickable="true"
+                                style="@style/AppTheme.DiscoverMatchFilterDialogSectionContainer"
+                                android:focusable="true">
+
+                                <TextView
+                                    android:textSize="@dimen/x_normal_font"
+                                    android:textColor="@color/gray_7a242323"
+                                    android:id="@+id/tv_match_filter_select_girl"
+                                    android:paddingTop="6.0dip"
+                                    android:paddingBottom="6.0dip"
+                                    android:layout_width="0.0dip"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/string_girl"
+                                    android:layout_weight="1.0"
+                                    android:drawableStart="@drawable/icon_common_female_selected"
+                                    android:fontFamily="@font/avenir_next_demibold" />
+
+                                <TextView
+                                    android:textSize="@dimen/x_normal_font"
+                                    android:textColor="@color/gray_7a242323"
+                                    android:id="@+id/tv_select_girl_coins"
+                                    android:paddingTop="6.0dip"
+                                    android:paddingBottom="6.0dip"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/_gems_search_girls_5"
+                                    android:drawablePadding="@dimen/dp5"
+                                    android:drawableStart="@drawable/gem"
+                                    android:fontFamily="@font/avenir_next_demibold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout android:gravity="center_vertical"
+                                android:id="@+id/llFilterDialogChooseGenderBoy"
+                                android:clickable="true"
+                                android:background="@drawable/selector_filter_option"
+                                style="@style/AppTheme.DiscoverMatchFilterDialogSectionContainer"
+                                android:focusable="true">
+
+                                <TextView
+                                    android:textSize="@dimen/x_normal_font"
+                                    android:textColor="@color/gray_7a242323"
+                                    android:id="@+id/tv_match_filter_select_boy"
+                                    android:paddingTop="6.0dip" android:paddingBottom="6.0dip"
+                                    android:layout_width="0.0dip" android:layout_height="wrap_content"
+                                    android:text="@string/string_guy"
+                                    android:layout_weight="1.0"
+                                    android:drawableStart="@drawable/icon_common_male_selected"
+                                    android:fontFamily="@font/avenir_next_demibold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+
+
+                            <LinearLayout
+                                android:gravity="center_vertical"
+                                android:id="@+id/llFilterDialogChooseGenderBoth"
+                                android:background="@drawable/selector_filter_option"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+
+                                style="@style/AppTheme.DiscoverMatchFilterDialogSectionContainer"
+                                android:focusable="true">
+
+                                <TextView android:textSize="@dimen/x_normal_font"
+                                    android:textColor="@color/gray_7a242323"
+                                    android:id="@+id/tv_match_filter_select_both"
+                                    android:paddingTop="6.0dip"
+                                    android:paddingBottom="6.0dip"
+                                    android:layout_width="0.0dip"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/string_both"
+                                    android:layout_weight="1.0"
+                                    android:gravity="center"
+                                    android:drawableStart="@drawable/icon_common_male_selected"
+                                    android:drawableEnd="@drawable/icon_common_female_selected"
+                                    android:fontFamily="@font/avenir_next_demibold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_discover_match_dialog_regionnal_preference"
+                        android:clickable="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginEnd="4.0dip"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:focusable="true">
+
+                        <LinearLayout android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                            <TextView android:text="@string/regional_pref_title"
+                                style="@style/TextViewSettingItemContentStyle" />
+
+
+                        </LinearLayout>
+
+
+                     
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginEnd="16.0dip"
+                        android:clickable="true"
+                        android:focusable="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:clickable="true"
+                            android:focusable="true"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/global"
+                                android:id="@+id/tvGlobaly"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="8.0dip"
+                                android:textColor="@color/gray_7a242323"
+                                android:checked="true"
+                                android:drawablePadding="@dimen/dp5"
+                                android:drawableStart="@drawable/icon_worldwide"
+                                android:background="@drawable/selector_filter_option"
+                                android:clickable="true"
+                                android:fontFamily="@font/avenir_next_demibold"
+                                android:padding="@dimen/dp6"
+                                android:focusable="true" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_nearby"
+                                android:id="@+id/tvNearby"
+                                android:layout_weight="1"
+                                android:padding="@dimen/dp6"
+                                android:textColor="@color/gray_7a242323"
+                                android:drawableStart="@drawable/icon_local"
+                                android:drawablePadding="@dimen/dp5"
+                                android:background="@drawable/selector_filter_option"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:fontFamily="@font/avenir_next_demibold"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/llFilterDialogCountry"
+                            android:background="@drawable/selector_filter_option"
+                            android:clickable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            style="@style/AppTheme.DiscoverMatchFilterDialogSectionContainer"
+                            android:focusable="true"
+                            android:layout_marginTop="8.0dip"
+
+                            >
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/country"
+                                android:id="@+id/tvSelectCountry"
+                                android:textColor="@color/gray_7a242323"
+                                android:padding="@dimen/dp6"
+                                android:layout_weight="1.0"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/avenir_next_demibold"
+                                />
+
+                            <com.hbb20.CountryCodePicker
+                                android:id="@+id/ccpSearchPreLocation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:ccp_showFullName="false"
+                                app:ccp_showNameCode="false"
+                                app:ccp_showPhoneCode="false"
+                                app:ccp_autoDetectCountry="true"
+                                app:ccp_showFlag="true"
+                                app:ccp_showArrow="true"
+                                app:ccp_contentColor="@color/gray_7a242323"
+                                android:visibility="visible"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_change_country_coins"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/gem"
+                                android:drawablePadding="@dimen/dp5"
+                                android:fontFamily="@font/avenir_next_demibold"
+                                android:paddingTop="6.0dip"
+                                android:paddingBottom="6.0dip"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/_gems_change_country_5"
+                                android:textColor="@color/gray_7a242323"
+                                android:textSize="@dimen/x_normal_font" />
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_discover_match_dialog_tag_preference"
+                        android:background="@color/white_normal"
+                        android:visibility="gone"
+                        android:clickable="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48.0dip"
+                        android:layout_marginStart="16.0dip"
+                        android:layout_marginEnd="4.0dip"
+                        android:focusable="true">
+
+                        <TextView
+                            android:text="@string/str_tags"
+                            android:layout_centerVertical="true"
+                            style="@style/TextViewSettingItemContentStyle" />
+
+                        <ImageView
+                            android:id="@+id/iv_discover_match_dialog_tag_arrow" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            android:id="@+id/tvFilterDialogTag"
+                            android:visibility="invisible"
+                            android:layout_width="24.0dip"
+                            android:layout_height="24.0dip"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="4.0dip"
+                            android:layout_toStartOf="@id/iv_discover_match_dialog_tag_arrow" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

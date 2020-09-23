@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white_normal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_chat_message_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <LinearLayout android:orientation="horizontal" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+
+            <ImageView
+                android:id="@+id/iv_chat_message_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_left_back_arrow" />
+
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+
+                <RelativeLayout android:id="@+id/rl_chat_message_title_avatar" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="4.0dip">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civ_chat_message_title_avatar"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <ImageView android:id="@+id/iv_chat_message_title_more" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more" />
+
+        </LinearLayout>
+
+        <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+
+        <FrameLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+<!--     clipToPadding="false" for not showing padding border -->
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recycle_chat_messages"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:padding="@dimen/dp8"
+                            android:clipToPadding="false"
+                            />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/edtTextMessage"
+                            android:hint="@string/write_new_message"
+                            android:background="@null"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/dp5"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/avenir_next_medium"
+                            />
+
+                        <LinearLayout android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:id="@+id/ll_chat_message_input_bar"
+                            android:visibility="visible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:paddingEnd="4.0dip"
+                            tools:ignore="RtlSymmetry">
+
+                            <ImageView android:id="@+id/iv_chat_msg_inpu_video"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip"
+                                android:src="@drawable/video_chat_black"
+                                android:layout_marginStart="8dp" />
+
+                            <ImageView
+                                android:id="@+id/iv_chat_msg_send"
+                                android:layout_width="48.0dip"
+                                android:layout_height="48.0dip"
+                                android:src="@drawable/send_able"
+                                android:alpha="0.5"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adAdmobBannerChat"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BannerAdmobID"/>
+
+    </LinearLayout>
+
+
+
+    <ViewStub android:id="@+id/menu_chat_message_more"
+        android:layout="@layout/menu_chat_message_more"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

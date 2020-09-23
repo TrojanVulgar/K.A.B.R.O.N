@@ -1,0 +1,2 @@
+rootProject.name='Holala Premium'
+include ':app', ':nativetemplates'

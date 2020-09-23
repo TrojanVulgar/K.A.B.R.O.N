@@ -1,0 +1,206 @@
+<?xml version="1.1" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name = "arr_languages">
+        <item> Arab </item>
+        <item> Bahasa Inggris </item>
+        <item> Prancis </item>
+        <item> Spanyol </item>
+        <item> Jerman </item>
+        <item> India </item>
+        <item> Italia </item>
+        <item> Bahasa Indonesia </item>
+        <item> Portugis </item>
+        <item> Pakistan </item>
+        <item> Turki </item>
+    </string-array>
+
+    <string name = "login_btn_facebook"> Terhubung dengan Facebook </string>
+    <string name = "login_btn_phone"> Terhubung dengan Nomor Telepon </string>
+    <string name = "meet_nfun_npeople_nnow"> Memenuhi \nMenyenangkan \nOrang \nSekarang </string>
+    <string name = "log_into_holala"> Masuk ke HOLALA </string>
+    <string name = "enter_mobile_number"> Masukkan nomor ponsel </string>
+    <string name = "send_sms_code"> Kirim kode SMS </string>
+    <string name = "login_enter_code"> Masukkan kode Anda </string>
+    <string name = "login_enter_mobile"> Masukkan nomor ponsel Anda </string>
+    <string name = "login_input_resent"> Kirim ulang kode </string>
+    <string name = "next_verify"> Next </string>
+    <string name = "login_statement_sms"> Dengan masuk, Anda mengonfirmasi bahwa Anda menyetujui <u> Ketentuan Layanan kami </u> dan <u> Kebijakan Privasi </u>. Anda akan menerima SMS untuk mengonfirmasi nomor ponsel Anda. Biaya SMS mungkin berlaku. </string>
+    <string name = "string_name"> Name </string>
+    <string name = "age_string"> Age </string>
+    <string name = "string_boy"> Boy </string>
+    <string name = "string_girtl"> Girl </string>
+    <string name = "string_confirm"> Konfirmasi </string>
+    <string name = "string_gender"> Gender </string>
+    <string name = "string_birthday"> Ulang Tahun </string>
+    <string name = "un13"> Anda berusia di bawah 18. </string>
+    <string name = "upload_clear_avatar"> Unggah gambar yang jelas, lebih banyak orang ingin berbicara dengan Anda. </string>
+    <string name = "string_good"> Bagus </string>
+    <string name = "string_bad"> Buruk </string>
+    <string name = "me_preview_entrance"> Pratinjau Profil Saya </string>
+    <string name = "strign_settings"> Pengaturan </string>
+    <string name = "notifications"> Notifikasi </string>
+    <string name = "write_a_review"> Tulis Tinjauan </string>
+    <string name = "about_holala"> Tentang HOLALA </string>
+    <string name = "send_segges"> Kirim Saran </string>
+    <string name = "log_out"> Keluar </string>
+    <string name = "string_language"> Bahasa </string>
+    <string name = "version_app"> versi</string>
+    <string name = "privac_polic"> <u> Kebijakan Privasi </u> </string>
+    <string name = "privac_polic_title"> Kebijakan Privasi </string>
+    <string name = "terms_of_service"> <u> Ketentuan Layanan </u> </string>
+    <string name = "terms_of_service_title"> Ketentuan Layanan </string>
+    <string name = "delete_account"> Hapus Akun </string>
+    <string name = "edit_profile"> Edit Profil </string>
+    <string name = "profile_preview"> Pratinjau Profil </string>
+    <string name = "edit_profile_picture_subtitle"> Tekan dan seret untuk mengurutkan foto Anda. </string>
+    <string name = "edit_profile_school_default"> Tambahkan Sekolah </string>
+    <string name = "edit_profile_name_empty_tips"> Ini tidak dapat dibiarkan kosong </string>
+    <string name = "edit_profile_about_me_title"> Tentang </string>
+    <string name = "edit_profile_about_me_default"> Bagikan sesuatu yang menarik tentang Anda </string>
+    <string name = "string_school"> Sekolah </string>
+
+    <string name = "string_job"> Pekerjaan </string>
+    <string name = "edit_profile_job_default"> Tambahkan Judul Pekerjaan </string>
+    <string name = "edit_profile_content_violation_tips"> Ada konten yang tidak pantas dalam informasi profil Anda, harap perbarui. </string>
+    <string name = "string_chat"> Obrolan </string>
+    <string name = "search_my_friends"> Cari teman-teman saya </string>
+    <string name = "string_cancel"> Batalkan </string>
+    <string name = "string_nearby_mode"> Mode Terdekat </string>
+    <string name = "string_meet_nearby_people"> Temui Orang Terdekat </string>
+    <string name = "new_match_list_title"> Teman Baru </string>
+    <string name = "string_profile"> Profil </string>
+    <string name = "string_convers"> Percakapan </string>
+    <string name = "match_with_others"> Cocokkan dengan yang lain! </string>
+    <string name = "try_now_sting"> Coba Sekarang </string>
+    <string name = "tap_the_screen_to_start"> Ketuk layar untuk memulai </string>
+    <string name="guys_girls">teman-teman &amp; perempuan</string>
+    <string name = "string_video_filter"> Filter Mode Video </string>
+    <string name = "string_voice_filter"> Filter Mode Suara </string>
+    <string name = "filter_online_gender_title"> Cocokkan dengan </string>
+    <string name = "string_girl"> Gadis </string>
+    <string name = "string_guy"> Guy </string>
+    <string name = "string_both"> Keduanya </string>
+    <string name = "regional_pref_title"> Preferensi Wilayah </string>
+    <string name = "str_tags"> Tag </string>
+    <string name = "sutitl_splash"> dari RIFCODE </string>
+    <string name = "veif_fealed_phone"> Verifikasi Gagal, silakan coba lagi. </string>
+    <string name = "very_otp"> Terjadi kesalahan saat memverifikasi OTP </string>
+    <string name = "plnmpho"> Silakan masukkan nomor telepon Anda </string>
+    <string name = "auth_success"> Sukses Otentikasi </string>
+    <string name = "vercodenovalid"> Kode verifikasi yang dimasukkan tidak valid </string>
+    <string name = "enter_verifi_code"> Silakan masukkan kode verifikasi. </string>
+    <string name = "string_camera"> Camera </string>
+    <string name = "string_photo"> Foto </string>
+    <string name = "camera_perms_denied"> Izin kamera ditolak </string>
+    <string name = "camera_perm_granted"> Izin kamera diberikan </string>
+    <string name = "cs"> IZIN BACA PENYIMPANAN EKSTERNAL YANG DIBERIKAN </string>
+    <string name = "csdd"> IZIN BACA PENYIMPANAN EKSTERNAL DITOLAK </string>
+    <string name = "cg"> Pilih galeri </string>
+    <string name = "toast_image_change_succ_profile"> Gambar Anda Berubah Berhasil </string>
+    <string name = "dbauthf"> Otentikasi Facebook gagal. </string>
+    <string name = "lcancl"> Batalkan Login </string>
+    <string name = "lod_phone"> Verifikasi nomor telepon … </string>
+    <string name = "pd_uplod_photo"> Mengunggah foto … </string>
+    <string name = "entyname"> Silakan masukkan nama Anda </string>
+    <string name = "greater6name"> nama Anda harus lebih besar dari 6 </string>
+    <string name = "data_save_seccff"> Data berhasil disimpan. </string>
+    <string name = "clear_cache"> Bersihkan Cache </string>
+    <string name = "rating_title"> Bersenang-senang di HOLALA? </string>
+    <string name = "rating_des_android"> Beri tahu kami dengan ulasan positif! </string>
+    <string name = "string_ok"> OK </string>
+    <string name = "string_rules"> Aturan </string>
+    <string name = "string_answers"> Jawaban </string>
+    <string name = "string_community"> Komunitas </string>
+
+    <string name = "are_you_sure_you_want_to_logout"> Anda yakin ingin keluar? </string>
+    <string name = "suggestions"> Saran </string>
+    <string name = "send_us_your_suggestions_about_holala_app"> Kirimkan saran Anda tentang aplikasi HOLALA kepada kami. </string>
+    <string name = "string_send"> SEND </string>
+    <string name = "string_hint_sugges"> Tinggalkan saran Anda di sini </string>
+    <string name = "pu_seggestoion"> Mohon saran Anda. </string>
+    <string name = "str_send_segg_test"> Saran Anda berhasil terkirim. </string>
+    <string name = "clsucc"> Bersihkan Cache Data Berhasil </string>
+    <string name = "cldataf"> Bersihkan Cache Data Gagal </string>
+    <string name = "str_languages"> Bahasa </string>
+    <string name = "str_nearby"> Terdekat </string>
+    <string name = "filter_nearby_title"> Filter Terdekat </string>
+    <string name = "filter_nearby_gender_title"> Saya Ingin Bertemu </string>
+    <string name = "enable_gps"> Coba lagi </string>
+    <string name = "str_ops"> Ups </string>
+    <string name = "must_enable_location"> Lokasi perangkat Anda tampaknya dinonaktifkan, Anda harus mengizinkan akses ke lokasi untuk menggunakan HOLALA. Silakan coba lagi </string>
+    <string name = "sorry_noflocarion"> Maaf, lokasi Anda tidak ditemukan. </string>
+    <string name = "fine_location_perm_granted"> Izin lokasi diberikan </string>
+    <string name = "fine_location_perms_denied"> Izin lokasi ditolak </string>
+    <string name = "near_no_people"> Tidak ada orang di dekat Anda saat ini, Coba lagi nanti </string>
+    <string name = "about_me"> Tentang </string>
+    <string name = "send_message"> Kirim pesan </string>
+    <string name = "write_new_message"> Tulis pesan </string>
+    <string name = "char_remove_secc"> Pesan yang dihapus dan obrolan berhasil. </string>
+    <string name = "string_unmatch"> Batalkan Pencocokan </string>
+    <string name = "stg_report"> Laporkan </string>
+    <string name = "inappropriate_photos"> Foto yang Tidak Pantas </string>
+    <string name = "profile_is_spam"> Profil adalah Spam </string>
+    <string name = "report_block"> Melaporkan &amp; Blok</string>
+    <string name = "strg_confirm"> Konfirmasi </string>
+    <string name = "lose_msg_unmatch"> Anda akan kehilangan semua pesan Anda dengan pengguna ini jika Anda tidak cocok. </string>
+    <string name = "are_you_sure"> Apakah Anda yakin? </string>
+    <string name = "searching"> Mencari … </string>
+    <string name = "log_fr_tlj_t"> Mencari teman untuk diajak bicara </string>
+    <string name = "accept"> Accept </string>
+    <string name = "match_found"> ​​Match Found </string>
+    <string name = "country"> Negara </string>
+    <string name = "global"> Global </string>
+    <string name = "str_guys"> Guys </string>
+    <string name = "str_girls"> Girls </string>
+    <string name = "st_wait_acce"> Tunggu penerimaan Anda. </string>
+    <string name = "str_send_reau_seccss"> Tambahkan permintaan yang berhasil dikirim. </string>
+    <string name = "stt_send_resfr"> Pertandingan Anda mengirim permintaan pertemanan ini, Apakah Anda ingin menolak atau menerima? </string>
+    <string name = "tit_fr_rest"> Permintaan Teman </string>
+    <string name = "str_decl"> Tolak </string>
+    <string name = "g_s_c"> Hadiah berhasil dikirim. </string>
+    <string name = "vcss"> Panggilan video berhasil dikirim. </string>
+    <string name = "recent_search"> Pencarian Terbaru </string>
+    <string name="press_back">Silakan klik KEMBALI lagi untuk keluar</string>
+
+    <string name = "in_app_purchases_gems"> Permata Pembelian Dalam Aplikasi: </string>
+
+    <string name = "in_app_subscriptions"> Langganan Dalam Aplikasi: </string>
+    <string name = "use_send_gift"> Gunakan untuk mengirim hadiah. </string>
+    <string name = "use_for_search_girls"> Gunakan untuk gadis penelusuran. </string>
+    <string name = "use_for_change_country_in_search"> Gunakan untuk mengubah negara dalam penelusuran. </string>
+    <string name = "use_for_send_message_in_history_search"> Gunakan untuk mengobrol dengan penelusuran riwayat. </string>
+    <string name = "unlimited_searching_girls_change_country"> Pencarian tidak terbatas (perempuan / ganti negara). </string>
+    <string name = "unlimited_send_gifts"> Mengirim hadiah tanpa batas. </string>
+    <string name = "unlimited_chat_history_mode"> Mode riwayat obrolan tidak terbatas. </string>
+    <string name = "remove_all_ads"> Hapus semua ADS. </string>
+    <string name = "buy"> Beli </string>
+    <string name = "purchase_gems"> Beli Permata </string>
+    <string name = "gems"> Permata </string>
+    <string name = "free_gems"> Permata Gratis </string>
+    <string name = "check_in_every_day"> Check-in setiap hari </string>
+    <string name = "check_in"> Lapor masuk </string>
+
+    <string name = "turn_on"> Nyalakan </string>
+    <string name = "turn_on_notifications"> Pemberitahuan Nyalakan </string>
+
+    <string name = "watch_rewarded_video_ads"> Tonton iklan video berhadiah setiap 30 menit </string>
+    <string name = "watch_ads"> Tonton Iklan </string>
+
+    <string name = "your_first_video_match"> Video call pertama Anda. </string>
+    <string name = "firs_voice_match"> Panggilan suara pertama Anda. </string>
+
+    <string name = "earn_strg"> Dapatkan </string>
+    <string name = "your_first_friend_match"> Teman pertama Anda cocok. </string>
+    <string name = "invite_frens"> Undang teman Anda untuk memasang aplikasi dan daftar untuk mendapatkan permata </string>
+    <string name = "inv_str"> Undang </string>
+    <string name = "earn_you"> WOOW. Anda Memperoleh Permata </string>
+    <string name = "purch_secc"> Pembelian Berhasil </string>
+    <string name = "bilical"> Penagihan Dibatalkan </string>
+    <string name = "subseccf"> Berhasil Berlangganan </string>
+    <string name = "free"> GRATIS </string>
+    <string name = "month"> Bulan </string>
+    <string name = "month_srt"> Bulan </string>
+    
+</resources>

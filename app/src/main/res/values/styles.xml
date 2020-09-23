@@ -1,0 +1,130 @@
+<resources>
+
+
+    <style name="AppFullScreen" parent="@style/AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:backgroundDimAmount">0.8</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fontFamily">@font/avenir_next_medium</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+
+    <style name="TitleBarContentTextStyle">
+        <item name="android:textSize">@dimen/title_bar_content_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="AppTheme.SingleHorizontalLineStyle" parent="@style/AppTheme">
+        <item name="android:background">@color/white_primary_darker</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/common_single_line_height</item>
+    </style>
+
+    <style name="GegisterRadioButtonStyle">
+        <item name="android:textSize">@dimen/xx_normal_font</item>
+        <item name="android:textColor">@drawable/selector_register_font_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/register_radio_text_padding_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">@dimen/register_radio_text_drawable_padding</item>
+    </style>
+
+    <style name="MyDatePicker" >
+        <item name="colorControlNormal">@color/main_text</item>
+        <item name="colorControlActivated">@color/main_text</item>
+        <item name="android:textColorPrimary">@color/main_text</item>
+        <item name="android:textSize">@dimen/xxx_large_font</item>
+    </style>
+
+    <style name="TextViewSettingItemContentStyle">
+        <item name="android:textSize">@dimen/x_normal_font</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/avenir_next_demibold</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="TextViewLanguageItemContentStyle">
+        <item name="android:textSize">@dimen/x_normal_font</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/avenir_next_demibold</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="AppTheme.NewSwitchButton" parent="@style/AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="kswAnimationDuration">300</item>
+        <item name="kswThumbHeight">24.0dip</item>
+        <item name="kswThumbMarginBottom">-2.0dip</item>
+        <item name="kswThumbMarginLeft">-5.0dip</item>
+        <item name="kswThumbMarginRight">-5.0dip</item>
+        <item name="kswThumbMarginTop">-2.0dip</item>
+        <item name="kswThumbWidth">24.0dip</item>
+        <item name="kswTintColor">#ffff5346</item>
+    </style>
+
+    <style name="AppTheme.WhiteAccent" parent="@style/AppTheme">
+        <item name="colorAccent">@color/white_normal</item>
+    </style>
+    <style name="AppTheme.DiscoverMatchFilterDialogSectionContainer" parent="@style/AppTheme">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+
+    <style name="bottomSheetDialogTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/shape_corner_12dp_white_up_solid</item>
+    </style>
+
+    <style name="AppTheme.SingleVerticalLineStyle" parent="@style/AppTheme">
+        <item name="android:background">@color/white_primary_darker</item>
+        <item name="android:layout_width">@dimen/common_single_line_width</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+<!--    <style name="PauseDialog" parent="@android:style/Theme.Dialog">-->
+<!--        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>-->
+<!--    </style>-->
+
+    <style name="PauseDialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/fadein</item>
+<!--    <item name="android:windowExitAnimation">@anim/fadeout</item>-->
+    </style>
+
+</resources>

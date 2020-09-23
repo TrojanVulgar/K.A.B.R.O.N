@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/chatgirls"
+        android:scaleType="fitXY"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+
+    <LinearLayout
+        android:id="@+id/rl_login"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/lytop"
+            >
+
+            <ImageView
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:src="@drawable/holala_icon_max"
+                android:layout_marginStart="@dimen/dp10"
+                android:layout_marginEnd="@dimen/dp10"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/red_ff5346"
+                android:fontFamily="@font/avenir_next_bold"
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_other_lang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linearlayout_login_facebook"
+            android:layout_below="@+id/lytop"
+            android:layout_marginStart="@dimen/login_btn_margin_left"
+            android:layout_marginLeft="@dimen/login_btn_margin_left"
+            android:layout_marginEnd="@dimen/login_btn_margin_right"
+            android:layout_marginRight="@dimen/login_btn_margin_right"
+            android:maxLines="4"
+            android:text="@string/meet_nfun_npeople_nnow"
+            android:textColor="@color/white_normal"
+            android:textSize="55.0sp"
+            android:fontFamily="@font/avenir_next_bold"
+            tools:ignore="RtlHardcoded" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            >
+
+        <include
+            android:id="@+id/linearlayout_login_facebook"
+            layout="@layout/btn_login_facebook"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/login_btn_height"
+            android:layout_marginStart="@dimen/login_btn_margin_left"
+            android:layout_marginEnd="@dimen/login_btn_margin_right"
+            android:layout_marginBottom="@dimen/login_facebook_btn_bottom_padding" />
+
+        <include
+            android:id="@+id/linearlayout_login_accountkit"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/login_btn_height"
+            android:layout_marginLeft="@dimen/login_btn_margin_left"
+            android:layout_marginBottom="@dimen/login_accountkit_btn_bottom_padding"
+            android:layout_marginStart="@dimen/login_btn_margin_left"
+            android:layout_marginEnd="@dimen/login_btn_margin_right"
+            layout="@layout/btn_login_accountkit" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/dp16"
+                >
+
+
+            <TextView
+                android:id="@+id/tvWelcomePrivacyPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_notice"
+                android:layout_gravity="center"
+                android:text="@string/privac_polic"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:textColor="@color/white_normal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_marginRight="@dimen/dp5"
+                android:layout_gravity="center"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:textColor="@color/white_normal"
+
+                />
+
+            <TextView
+                android:id="@+id/tvWelcomeTermsOFServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_notice"
+                android:layout_gravity="center"
+                android:text="@string/terms_of_service"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:textColor="@color/white_normal"
+
+                />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@+id/ll_dialog_nearby_filter_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout android:orientation="vertical"
+        android:background="@drawable/shape_corner_12dp_white_bottom_solid"
+        android:paddingBottom="8.0dip"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_gravity="end|center"
+                android:id="@+id/imgvNearbyFilterClose"
+                android:layout_width="44.0dip"
+                android:layout_height="44.0dip"
+                android:src="@drawable/close_black_48dp" />
+
+        <TextView
+            android:textSize="@dimen/x_large_font"
+            android:textColor="@color/main_text"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="56.0dip"
+            android:text="@string/filter_nearby_title"
+            android:fontFamily="@font/avenir_next_bold"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_gravity="end|center"
+            android:id="@+id/imgvNearbyFilterSave"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:src="@drawable/icon_complete" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+
+            <TextView android:textSize="@dimen/xxx_small_font"
+                android:id="@+id/tv_show_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:text="@string/filter_nearby_gender_title"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:layout_alignParentStart="true" />
+
+            <RadioGroup
+                android:orientation="horizontal"
+                android:id="@+id/rg_gender"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_show_me">
+
+                <RadioButton android:textSize="@dimen/x_normal_font"
+                    android:textColor="@drawable/text_selector_filter_gender"
+                    android:gravity="center"
+                    android:id="@+id/rb_guys"
+                    android:background="@drawable/nearby_filter_radio_button_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:button="@null" android:text="@string/string_guy" android:layout_weight="1.0" android:fontFamily="@font/avenir_next_bold" android:layout_marginEnd="8.0dip" />
+
+                <RadioButton android:textSize="@dimen/x_normal_font"
+                    android:textColor="@drawable/text_selector_filter_gender"
+                    android:gravity="center"
+                    android:id="@+id/rb_girls"
+                    android:background="@drawable/nearby_filter_radio_button_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:button="@null" android:text="@string/string_girl" android:layout_weight="1.0" android:fontFamily="@font/avenir_next_bold" android:layout_marginEnd="8.0dip" />
+
+                <RadioButton android:textSize="@dimen/x_normal_font"
+                    android:textColor="@drawable/text_selector_filter_gender"
+                    android:gravity="center"
+                    android:id="@+id/rb_both"
+                    android:background="@drawable/nearby_filter_radio_button_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:button="@null" android:text="@string/string_both" android:layout_weight="1.0" android:fontFamily="@font/avenir_next_bold" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginTop="@dimen/dp10"
+
+            android:layout_marginEnd="16.0dip">
+
+            <TextView android:id="@+id/tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_string"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:layout_alignParentStart="true" />
+
+            <TextView android:textColor="@color/main_text"
+                android:id="@+id/tv_age_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="18-99"
+                android:fontFamily="@font/avenir_next_bold"
+                android:layout_alignParentEnd="true" />
+
+            <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+                android:id="@+id/rangeSeekbarNearbyFilter"
+                android:layout_width="match_parent"
+                app:corner_radius="5"
+                app:bar_color="@color/gray_efecec"
+                app:bar_highlight_color="@color/red_ff5346"
+                app:left_thumb_color="@color/red_ff5346"
+                app:right_thumb_color="@color/red_ff5346"
+                app:left_thumb_color_pressed="@color/red_ff5346"
+                app:right_thumb_color_pressed="@color/red_ff5346"
+                app:data_type="_integer"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

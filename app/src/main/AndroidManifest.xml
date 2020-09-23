@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rifcode.holalapremium">
+
+    <permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.location.network" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/holala_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/holala_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.Random.FreeGemsActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".View.Random.GemsActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".View.Main.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Chat.VideoCallAnswerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Random.VideoCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Random.RequestCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Random.SearchRandomActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Random.VoiceCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Chat.ChatActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.rifcode.holalapremium_TARGET_NOTIFICATION_messages" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.Main.UserProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Main.NearbyActivity"
+            android:parentActivityName=".View.Main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Profile.LanguagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Profile.Community.CommunityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Login.TermsOfServiceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" />
+        <activity
+            android:name=".View.Login.PrivacyPolicyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" />
+
+        <activity
+            android:name=".View.Login.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" >
+        </activity>
+
+        <activity
+            android:name=".View.Profile.PreviewProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Profile.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Profile.AboutAppActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Profile.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Login.InfoRegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" />
+        <activity
+            android:name=".View.Login.VerifyPhoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" />
+
+        <activity
+            android:name=".View.Login.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen">
+
+        </activity>
+
+        <activity
+            android:name=".View.Login.PhoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" />
+
+        <activity
+            android:name=".View.Main.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.rifcode.holalapremium_TARGET_NOTIFICATION_video_call" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".View.Login.AddPicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen" />
+        <activity
+            android:name=".View.Login.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:host="@string/domain_link"
+                    android:scheme="https"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- facebook login -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Utils.FirebaseMessagingService"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Utils.ServiceDestroyApp"
+            android:stopWithTask="false" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

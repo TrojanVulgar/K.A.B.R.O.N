@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NextBold">
+        <attr name="customFontNextBold" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="NextDemiBold">
+        <attr name="customFontNextDemiBold" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="NextMedium">
+        <attr name="customFontNextMedium" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="NextRegular">
+    <attr name="customFontNextRegular" format="string"/>
+    </declare-styleable>
+
+</resources>

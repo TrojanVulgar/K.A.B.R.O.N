@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/white_normal"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgvPhotoUserProfile"
+                android:layout_width="56.0dip"
+                android:layout_height="56.0dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_marginBottom="@dimen/dp5"
+                />
+
+            <TextView
+                android:id="@+id/tvNameUserProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="username"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black72"
+                android:layout_marginBottom="@dimen/dp5"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/card_stack_view_userprofile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_weight="1"
+        android:clipToPadding="false"/>
+
+    <TextView
+        android:textSize="@dimen/x_normal_font"
+        android:textColor="@color/blue_cc3edbff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvSendMsgUserProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25.0dip"
+        android:layout_marginTop="25dp"
+        android:text="@string/send_message"
+        android:gravity="center"
+        android:fontFamily="@font/avenir_next_bold"
+        android:drawableStart="@drawable/icon_send_blue"
+        android:drawablePadding="@dimen/dp8"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffff3a43</color>
+    <color name="colorPrimaryDark">#ffff3a43</color>
+    <color name="colorAccent">#ffff3a43</color>
+
+    <color name="white_normal">#ffffffff</color>
+    <color name="facebook_bg_color">#ff1777f1</color>
+
+    <color name="normal_red">#ffff3a43</color>
+    <color name="black72">#b8000000</color>
+    <color name="black_3d000000">#3d000000</color>
+    <color name="black_normal">#ff000000</color>
+    <color name="black_normal_darker">#ff323231</color>
+    <color name="black_primary_lighter">#ff1b1a1a</color>
+
+    <color name="red_primary">#ffff2110</color>
+
+    <color name="main_text">#ff242323</color>
+    <color name="white_primary_darker">#fff7f4f3</color>
+    <color name="red_ff5346">#ffff5346</color>
+    <color name="gray_c6bfbd">#ffc6bfbd</color>
+    <color name="mask_lighter">#22000000</color>
+    <color name="white_gray_fcfbfa">#fffcfbfa</color>
+    <color name="black_3d242323">#3d242323</color>
+    <color name="white_f7f4f3">#fff7f4f3</color>
+    <color name="gray_primary_lighter">#ffc6bfbd</color>
+    <color name="gray_e2dedd">#ffe2dedd</color>
+    <color name="green_18cd4f">#ff18cd4f</color>
+    <color name="orange_ff8806">#ffff8806</color>
+    <color name="gray_33000000">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="hint_text_color">#ffb9b1af</color>
+    <color name="gray_7a242323">#7a242323</color>
+    <color name="mask_primary_white">#80ffffff</color>
+    <color name="blue_3edbff">#ff3edbff</color>
+    <color name="gray_efecec">#ffefecec</color>
+    <color name="gray_primary">#ffe2dede</color>
+    <color name="blue_cc3edbff">#cc3edbff</color>
+    <color name="gray_99ffffff">#99ffffff</color>
+    <color name="gray_cc242323">#cc242323</color>
+    <color name="purple_5158ff">#ff5158ff</color>
+    <color name="blue_ocean">#5B86E5</color>
+    <color name="blue_marin">#36D1DC</color>
+
+
+</resources>

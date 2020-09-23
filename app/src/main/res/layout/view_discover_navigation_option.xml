@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@null"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_navigation_option_video_voice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp5"
+        >
+
+            <ImageView android:id="@+id/imgvRandomHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_recent_history_48dp"
+                android:layout_gravity="start"
+                android:layout_margin="5dp"
+                />
+
+            <com.polyak.iconswitch.IconSwitch
+                android:id="@+id/icon_switch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:isw_icon_left="@drawable/ic_voice"
+                app:isw_icon_right="@drawable/ic_videocam"
+                app:isw_icon_size="28dp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/dp5"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+            <ImageView android:id="@+id/imgvMyGems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_gem_group_80_48dp"
+                />
+
+            <ImageView android:id="@+id/imgvFreeGems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/free_gems"
+                />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

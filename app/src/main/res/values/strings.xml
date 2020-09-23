@@ -1,0 +1,277 @@
+<resources>
+
+<!--    name app-->
+    <string name="app_name" translatable="false">Holala Premium</string>
+<!--    version app-->
+    <string name="ver_num" translatable="false">&#160;1.0&#160;</string>
+
+    <!--    Referrer Link setup-->
+    <string name="domain_link" translatable="false">here</string>
+    <string name="site_web_link" translatable="false">here</string>
+
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id" translatable="false">put here</string>
+
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token" translatable="false">#YOUR ACCESS TOKEN#</string>
+
+    <!--  LOGIN FACEBOOK -->
+        <string name="facebook_app_id" translatable="false">put here</string>
+        <string name="fb_login_protocol_scheme" translatable="false">put here</string>
+
+
+    <!--  ADS ADMOB -->
+    <string name="BannerAdmobID" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="NativeAdmobID" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="InterstitialAdAdmobID" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="REWARDED_ADS_ID" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <!--  ADS FACEBOOK -->
+    <string name="NativeAds_Facebook" translatable="false">728146827632560_827238054390103</string>
+    <string name="Interstitial_FacebbokAds" translatable="false">728146827632560_833272517119990</string>
+    <string name="Banner_ads_facebook" translatable="false">IMG_16_9_APP_INSTALL#728146827632560_827277211052854</string>
+
+
+
+
+    <!-- free gems -->
+    <string name="earn_50_evry_day" translatable="false">50</string>
+    <string name="earn10_notification" translatable="false">10</string>
+    <string name="earn_15_reward_ads" translatable="false">15</string>
+    <string name="earn_3_video_call" translatable="false">3</string>
+    <string name="earn_3_voice_call" translatable="false">3</string>
+    <string name="earn_4_new_match" translatable="false">4</string>
+    <string name="earn_10_invite" translatable="false">10</string>
+    <string name="_gems_search_girls_5" translatable="false">5</string>
+    <string name="_gems_change_country_5" translatable="false">5</string>
+    <string name="invite_1" translatable="false">1</string>
+    <string name="_3_gems_send_msg" translatable="false">3</string>
+
+
+
+    <!-- PUT YOUR MERCHANT_KEY and LICENSE_KEY PURCHASES IN-APP  -->
+    <string name="MERCHANT_KEY" translatable="false">PUT YOUR MERCHANT KEY HERE</string>
+    <string name="LICENSE_KEY" translatable="false">PUT YOUR LICENSE KEY HERE</string>
+
+    <!--  PRODUCTS ID GEMS  -->
+    <string name="PRODUCT_ID_100_GEMS" translatable="false">android.test.purchased</string>
+    <string name="PRODUCT_ID_500_GEMS" translatable="false">android.test.purchased</string>
+    <string name="PRODUCT_ID_1000_GEMS" translatable="false">android.test.purchased</string>
+
+    <!--  PUT YOUR SUBSCRIBE ID CHANGE android.test.purchased to YOUR ID -->
+    <string name="SUBSCRIBE_ID_1_months" translatable="false">android.test.purchased</string>
+    <string name="SUBSCRIBE_ID_3_months" translatable="false">android.test.purchased</string>
+    <string name="SUBSCRIBE_ID_12_months" translatable="false">android.test.purchased</string>
+
+    <!--    in-App pucrhase gems-->
+    <string name="_100_gems" translatable="false">100</string>
+    <string name="_500_gems" translatable="false">500</string>
+    <string name="_1000_gems" translatable="false">1000</string>
+
+    <!--    in-app subscriptions-->
+    <string name="_1_month" translatable="false">1</string>
+    <string name="_3_months" translatable="false">3</string>
+    <string name="_12_months" translatable="false">12</string>
+
+    <string-array name="arr_languages">
+        <item>Arabic</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>German</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Indonesian</item>
+        <item>Portuguese</item>
+        <item>Pakistani</item>
+        <item>Turkish</item>
+    </string-array>
+
+    <string name="login_btn_facebook">Connect with Facebook</string>
+    <string name="login_btn_phone">Connect with Phone Number</string>
+    <string name="meet_nfun_npeople_nnow">Meet\nFun\nPeople\nNow</string>
+    <string name="log_into_holala">Log Into HOLALA</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="send_sms_code">Send SMS code</string>
+    <string name="login_enter_code">Enter your code</string>
+    <string name="login_enter_mobile">Enter your mobile number</string>
+    <string name="login_input_resent">Resend code</string>
+    <string name="next_verify">Next</string>
+    <string name="login_statement_sms">By logging in, you confirm that you agree to our <u>Terms of Service</u> and <u>Privacy Policy</u>. You will receive an SMS to confirm your mobile number. SMS fee may apply.</string>
+    <string name="string_name">Name</string>
+    <string name="age_string">Age</string>
+    <string name="string_boy">Boy</string>
+    <string name="string_girtl">Girl</string>
+    <string name="string_confirm">Confirm</string>
+    <string name="string_gender">Gender</string>
+    <string name="string_birthday">Birthday</string>
+    <string name="un13">You are under 18.</string>
+    <string name="upload_clear_avatar">Upload a clear picture, more people will want to talk with you.</string>
+    <string name="string_good">Good</string>
+    <string name="string_bad">Bad</string>
+    <string name="me_preview_entrance">Preview My Profile</string>
+    <string name="strign_settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="write_a_review">Write a Review</string>
+    <string name="about_holala">About HOLALA</string>
+    <string name="send_segges">Send Suggestions</string>
+    <string name="log_out">Log Out</string>
+    <string name="string_language">Language</string>
+    <string name="version_app">version</string>
+    <string name="privac_polic"><u>Privacy Policy</u></string>
+    <string name="privac_polic_title">Privacy Policy</string>
+    <string name="terms_of_service"><u>Terms of Service</u></string>
+    <string name="terms_of_service_title">Terms of Service</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_preview">Profile Preview</string>
+    <string name="edit_profile_picture_subtitle">Press and drag to sort your photos.</string>
+    <string name="edit_profile_school_default">Add School</string>
+    <string name="edit_profile_name_empty_tips">This can’t be left blank</string>
+    <string name="edit_profile_about_me_title">About</string>
+    <string name="edit_profile_about_me_default">Share something interesting about you</string>
+    <string name="string_school">School</string>
+    <string name="string_job">Job</string>
+    <string name="edit_profile_job_default">Add Job Title</string>
+    <string name="edit_profile_content_violation_tips">There is inappropriate content in your profile information, please update it.</string>
+    <string name="string_chat">Chat</string>
+    <string name="search_my_friends">Search my friends</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="string_nearby_mode">Nearby Mode</string>
+    <string name="string_meet_nearby_people">Meet Nearby People</string>
+    <string name="new_match_list_title">New Friends</string>
+    <string name="string_profile">Profile</string>
+    <string name="string_convers">Conversations</string>
+    <string name="match_with_others">Match with others!</string>
+    <string name="try_now_sting">Try Now</string>
+    <string name="tap_the_screen_to_start">Tap the screen to start</string>
+    <string name="guys_girls">Guys &amp; Girls</string>
+    <string name="string_video_filter">Video Mode Filter</string>
+    <string name="string_voice_filter">Voice Mode Filter</string>
+    <string name="filter_online_gender_title">Match With</string>
+    <string name="string_girl">Girl</string>
+    <string name="string_guy">Guy</string>
+    <string name="string_both">Both</string>
+    <string name="regional_pref_title">Region Preference</string>
+    <string name="str_tags">Tags</string>
+    <string name="sutitl_splash">from RIFCODE</string>
+    <string name="veif_fealed_phone">Verification Failed, please try again.</string>
+    <string name="very_otp">There was an error verifying OTP</string>
+    <string name="plnmpho">Please enter your number phone</string>
+    <string name="auth_success">Authentication Success</string>
+    <string name="vercodenovalid">The verification code entered was invalid</string>
+    <string name="enter_verifi_code">Please enter verify code.</string>
+    <string name="string_camera">Camera</string>
+    <string name="string_photo">Photo</string>
+    <string name="camera_perms_denied">Camera permission denied</string>
+    <string name="camera_perm_granted">Camera permission granted</string>
+    <string name="cs">PERMISSION READ EXTERNAL STORAGE GRANTED</string>
+    <string name="csdd">PERMISSION READ EXTERNAL STORAGE DENIED</string>
+    <string name="cg">Choose gallery</string>
+    <string name="toast_image_change_succ_profile">Your Image Changing Successfully</string>
+    <string name="dbauthf">Facebook Authentication failed.</string>
+    <string name="lcancl">Login Cancel</string>
+    <string name="lod_phone">Verification phone number…</string>
+    <string name="pd_uplod_photo">Uploading photo…</string>
+    <string name="entyname">Please enter your name</string>
+    <string name="greater6name">your name should be Greater than 6</string>
+    <string name="data_save_seccff">Data is saved successfully.</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="rating_title">Having fun on HOLALA?</string>
+    <string name="rating_des_android">Let us know with a positive review!</string>
+    <string name="string_ok">OK</string>
+    <string name="string_rules">Rules</string>
+    <string name="string_answers">Answers</string>
+    <string name="string_community">Community</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to Logout?</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="send_us_your_suggestions_about_holala_app">Send us your suggestions about HOLALA app.</string>
+    <string name="string_send">SEND</string>
+    <string name="string_hint_sugges">Leave your suggestion here</string>
+    <string name="pu_seggestoion">Put your suggestion please.</string>
+    <string name="str_send_segg_test">Your suggestion sent successfully.</string>
+    <string name="clsucc">Clear Data Cache Successfully</string>
+    <string name="cldataf">Clear Data Cache Failed</string>
+    <string name="str_languages">Languages</string>
+    <string name="str_nearby">Nearby</string>
+    <string name="filter_nearby_title">Nearby Filter</string>
+    <string name="filter_nearby_gender_title">I Want to Meet</string>
+    <string name="enable_gps">Try again</string>
+    <string name="str_ops">Oops</string>
+    <string name="must_enable_location">Your device\'s location seems to be disabled, You need to allow access to location in order to use HOLALA. Please try again</string>
+    <string name="sorry_noflocarion">Sorry, your location isn\'t found.</string>
+    <string name="fine_location_perm_granted">Location permission granted</string>
+    <string name="fine_location_perms_denied">Location permission denied</string>
+    <string name="near_no_people">No people nearby you in this moment, Try again later</string>
+    <string name="about_me">About</string>
+    <string name="send_message">Send message</string>
+    <string name="write_new_message">Write a message</string>
+    <string name="char_remove_secc">Removed messages and chat successfully.</string>
+    <string name="string_unmatch">UnMatch</string>
+    <string name="stg_report">Report</string>
+    <string name="inappropriate_photos">Inappropriate Photos</string>
+    <string name="profile_is_spam">Profile is Spam</string>
+    <string name="report_block"> Report &amp; Block</string>
+    <string name="strg_confirm">Confirm</string>
+    <string name="lose_msg_unmatch">You will lose all your message with this user if you unmatch.</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="searching">Searching…</string>
+    <string name="log_fr_tlj_t">Looking for a friend to talk to</string>
+    <string name="accept">Accept</string>
+    <string name="match_found">Match Found</string>
+    <string name="country">Country</string>
+    <string name="global">Global</string>
+    <string name="str_guys">Guys</string>
+    <string name="str_girls">Girls</string>
+    <string name="st_wait_acce">Wait for your acceptance.</string>
+    <string name="str_send_reau_seccss">Add request sent successfully.</string>
+    <string name="stt_send_resfr">Your match send this friend request, Do you want decline or accept?</string>
+    <string name="tit_fr_rest">Friend Request</string>
+    <string name="str_decl">Decline</string>
+    <string name="g_s_c">Gift sent successfully.</string>
+    <string name="vcss">Video call sent successfully.</string>
+    <string name="recent_search">Recent Search</string>
+    <string name="press_back">Please click BACK again to exit</string>
+
+    <string name="in_app_purchases_gems">In-App Purchases Gems :</string>
+
+    <string name="in_app_subscriptions">In-App Subscriptions :</string>
+    <string name="use_send_gift">Use for send gift.</string>
+    <string name="use_for_search_girls">Use for search girls.</string>
+    <string name="use_for_change_country_in_search">Use for change country in search.</string>
+    <string name="use_for_send_message_in_history_search">Use for chat with history searching.</string>
+    <string name="unlimited_searching_girls_change_country">Unlimited searching (girls / change country).</string>
+    <string name="unlimited_send_gifts">Unlimited send gifts.</string>
+    <string name="unlimited_chat_history_mode">Unlimited chat history mode.</string>
+    <string name="remove_all_ads">Remove all ADS.</string>
+    <string name="buy">Buy</string>
+    <string name="purchase_gems">Purchase Gems</string>
+    <string name="gems">Gems</string>
+    <string name="free_gems">Free Gems</string>
+    <string name="check_in_every_day">Check-in every day</string>
+    <string name="check_in">Check-in</string>
+
+    <string name="turn_on">Turn On</string>
+    <string name="turn_on_notifications">Turn-On Notifications</string>
+
+    <string name="watch_rewarded_video_ads">Watch rewarded video ads every 30 min</string>
+    <string name="watch_ads">Watch Ads</string>
+
+    <string name="your_first_video_match">Your first video call.</string>
+    <string name="firs_voice_match">Your first voice call.</string>
+
+    <string name="earn_strg">Earn</string>
+    <string name="your_first_friend_match">Your first friend match.</string>
+    <string name="invite_frens">Invite your friends to install app and signup to earn gems</string>
+    <string name="inv_str">Invite</string>
+    <string name="earn_you">WOOW.You Earned Gems</string>
+    <string name="purch_secc">Purchase Successfully</string>
+    <string name="bilical">Billing Canceled</string>
+    <string name="subseccf">Subscription Successfully</string>
+    <string name="free">FREE</string>
+    <string name="month">Month</string>
+    <string name="month_srt">Months</string>
+
+</resources>

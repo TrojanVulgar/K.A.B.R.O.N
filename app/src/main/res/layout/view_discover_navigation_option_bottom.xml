@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@null">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_navigation_option_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        >
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:id="@+id/discover_navigation_option_tool"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp8"
+
+            >
+
+            <ImageView android:id="@+id/imgvRandomHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_recent_history_48dp"
+                android:layout_marginEnd="8.0dip"
+                android:layout_gravity="start"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/llRandomFilter"
+                >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_online_filter_white_24dp"
+                android:layout_marginEnd="8.0dip"
+                android:layout_gravity="center"
+
+                />
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/white_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guys_girls"
+                android:fontFamily="@font/avenir_next_bold" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

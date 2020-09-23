@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/selector_filter_option"
+                android:padding="@dimen/dp8"
+                android:layout_margin="@dimen/dp8"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Gems"
+                    android:textColor="@color/main_text"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_next_demibold"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_limit_product_group"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCountMyGems"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:layout_margin="8dp"
+                    android:text="0"
+                    android:textColor="@color/orange_ff8806"
+                    android:fontFamily="@font/avenir_next_demibold"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/in_app_purchases_gems"
+                android:textColor="@color/main_text"
+                android:textSize="16sp"
+                android:layout_margin="@dimen/dp8"
+                android:fontFamily="@font/avenir_next_demibold"
+                />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/use_send_gift"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/use_for_search_girls"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/use_for_change_country_in_search"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/use_for_send_message_in_history_search"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/dp8"
+                >
+
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/selector_filter_option"
+                android:padding="8dp"
+                android:gravity="center"
+                android:id="@+id/ly100gems"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp">
+
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/gem_max"
+                    android:layout_marginBottom="8dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_100_gems"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/main_text"
+                    android:fontFamily="@font/avenir_next_regular"
+                    android:background="@drawable/selector_basic_language_layout"
+                    />
+
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_filter_option"
+                    android:padding="8dp"
+                    android:id="@+id/ly500gems"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp">
+
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/gem_max"
+                        android:layout_marginBottom="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_500_gems"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/main_text"
+                        android:fontFamily="@font/avenir_next_regular"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_filter_option"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:id="@+id/ly1000gems"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp">
+
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/gem_max"
+                        android:layout_marginBottom="8dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1000_gems"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/main_text"
+                        android:fontFamily="@font/avenir_next_regular"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/in_app_subscriptions"
+                android:textColor="@color/main_text"
+                android:textSize="16sp"
+                android:layout_margin="@dimen/dp8"
+                android:fontFamily="@font/avenir_next_demibold"
+                />
+
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unlimited_searching_girls_change_country"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unlimited_send_gifts"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unlimited_chat_history_mode"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <TextView
+                android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/remove_all_ads"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp8"
+                android:drawableStart="@drawable/icon_points_20dp"
+                android:drawablePadding="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/dp8"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_filter_option"
+                    android:padding="5dp"
+                    android:id="@+id/ly1month"
+                    android:layout_marginBottom="8dp"
+                    android:layout_height="0dp">
+
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/icon_prime_unlock"
+                        android:layout_gravity="center"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginRight="@dimen/dp10"
+                        >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_1_month"
+                            android:textSize="20sp"
+                            android:textColor="@color/main_text"
+                            android:fontFamily="@font/avenir_next_regular"
+                            android:background="@drawable/selector_basic_language_layout"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/month"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:layout_marginLeft="@dimen/dp10"
+                            android:textColor="@color/main_text"
+                            android:fontFamily="@font/avenir_next_regular"
+                            android:background="@drawable/selector_basic_language_layout"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/selector_filter_option"
+                    android:padding="5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ly3month"
+
+                    >
+
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/icon_prime_unlock"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginRight="@dimen/dp10"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/avenir_next_regular"
+                            android:gravity="center"
+                            android:text="@string/_3_months"
+                            android:textColor="@color/main_text"
+                            android:textSize="20sp"
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/avenir_next_regular"
+                            android:gravity="center"
+                            android:text="@string/month_srt"
+                            android:textColor="@color/main_text"
+                            android:textSize="20sp"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:layout_marginLeft="@dimen/dp10"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly12months"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_filter_option"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/icon_prime_unlock" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginRight="@dimen/dp10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/avenir_next_regular"
+                            android:gravity="center"
+                            android:text="@string/_12_months"
+                            android:textColor="@color/main_text"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/avenir_next_regular"
+                            android:gravity="center"
+                            android:text="@string/month_srt"
+                            android:textColor="@color/main_text"
+                            android:textSize="20sp"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:layout_marginLeft="@dimen/dp10"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

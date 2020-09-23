@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_receive_user_info" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/rl_voice_match_receive_one_user_avatar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="114.0dip">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                android:id="@+id/civ_voice_call_avatar"
+                android:visibility="visible"
+                app:civ_border_color="@color/white_normal"
+                app:civ_border_width="@dimen/dp2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/icon_register_select_header" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/ll_voice_call_user_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip">
+
+            <TextView
+                android:textSize="@dimen/x_large_font"
+                android:textColor="@color/white_normal"
+                android:gravity="center"
+                android:id="@+id/tv_voice_call_name"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="2.0dip"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:text="name 21"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_voice_call_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp5"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:textColor="@color/white_normal"
+                android:textSize="@dimen/x_normal_font"
+                android:text="00:00"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

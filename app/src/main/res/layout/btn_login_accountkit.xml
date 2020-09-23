@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center" android:orientation="horizontal"
+    android:background="@drawable/selector_phone_number"
+    android:clickable="true" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <TextView
+        android:textSize="@dimen/login_btn_textsize"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_btn_phone"
+        android:drawableLeft="@drawable/icon_login_accountkit"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/icon_login_accountkit"
+        android:fontFamily="@font/avenir_next_bold"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

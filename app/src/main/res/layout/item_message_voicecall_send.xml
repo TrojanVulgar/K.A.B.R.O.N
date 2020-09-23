@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyMeesageOutText"
+    >
+    <!--    <TextView android:textSize="@dimen/x_small_font" android:textColor="@color/black_3d242323" android:gravity="center" android:id="@+id/tv_recycle_chat_send_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_msg_send_time_margin_top" android:layout_marginBottom="@dimen/chat_msg_send_time_margin_bottom" />-->
+    <RelativeLayout android:id="@+id/rl_recycle_chat_send_content"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <TextView android:textSize="@dimen/x_normal_font"
+            android:textColor="@color/blue_ocean"
+            android:id="@+id/tvOutMessageTextChat"
+            android:background="@drawable/my_bg_msg_voice_call"
+            android:paddingTop="6.0dip" android:paddingBottom="6.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:text="fdfdfsfdf"
+            android:paddingStart="10.0dip"
+            android:paddingEnd="10.0dip"
+            android:layout_marginTop="@dimen/dp2"
+            android:layout_marginBottom="@dimen/dp2"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/white_normal" android:clipChildren="false"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imgvPreviewProfileBack"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:src="@drawable/close_black_48dp" />
+
+        <TextView
+            android:textColor="@color/main_text"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:text="@string/profile_preview"
+            android:maxLines="1"
+            android:layout_marginStart="60.0dip"
+            android:layout_marginEnd="60.0dip"
+            app:fontFamily="@font/avenir_next_bold"
+            style="@style/TitleBarContentTextStyle" />
+
+    </FrameLayout>
+    <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+<!--    <holalapremiumpremium.Utils.FrameLayoutForRatio-->
+<!--        android:id="@+id/preview_card_container"-->
+<!--        android:clipChildren="false"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8.0dip"-->
+<!--        android:layout_marginStart="16.0dip" -->
+<!--        android:layout_marginEnd="16.0dip" />-->
+
+
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/card_stack_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp4"
+        android:layout_marginBottom="@dimen/dp4"
+        android:layout_weight="1"
+        android:clipToPadding="false"/>
+
+    <TextView
+        android:textSize="@dimen/x_normal_font"
+        android:textColor="@color/red_ff5346"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_preview_go_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25.0dip"
+        android:layout_marginBottom="25.0dip"
+        android:text="@string/edit_profile"
+        android:fontFamily="@font/avenir_next_demibold" />
+
+</LinearLayout>

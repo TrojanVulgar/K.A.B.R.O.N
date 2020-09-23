@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/white_normal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imgvAboutAppBack"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:src="@drawable/icon_left_back_arrow" />
+
+        <TextView
+            android:textColor="@color/main_text"
+            android:ellipsize="end" android:layout_gravity="center"
+            android:text="@string/about_holala"
+            android:maxLines="1"
+            android:layout_marginStart="60.0dip"
+            android:layout_marginEnd="60.0dip"
+            app:fontFamily="@font/avenir_next_bold"
+            style="@style/TitleBarContentTextStyle" />
+
+    </FrameLayout>
+    <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/dp5"
+
+        >
+
+        <RelativeLayout
+            android:padding="@dimen/about_border_width"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/about_icon_length"
+                android:layout_height="@dimen/about_icon_length"
+                android:src="@drawable/holala_icon"
+                android:id="@+id/icon_holala"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16.0dip" />
+
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/icon_holala">
+
+                <TextView
+                    android:textSize="@dimen/x_large_font"
+                    android:textColor="@color/main_text"
+                    android:id="@+id/tv_holla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:fontFamily="@font/avenir_next_demibold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="@dimen/xxx_small_font"
+                        android:textColor="@color/hint_text_color"
+                        android:id="@+id/tv_setting_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/version_app"
+                        android:layout_marginTop="@dimen/about_app_version_margin_top" />
+
+                    <TextView
+                        android:textSize="@dimen/xxx_small_font"
+                        android:textColor="@color/hint_text_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ver_num"
+                        android:layout_marginTop="@dimen/about_app_version_margin_top" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View android:layout_marginLeft="@dimen/setting_views_margin_left" android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+        <RelativeLayout
+            android:id="@+id/rl_about_privacy_policy"
+            android:background="@drawable/selector_basic_layout"
+            android:paddingLeft="@dimen/setting_views_margin_left"
+            android:paddingTop="@dimen/setting_item_with_item"
+            android:paddingRight="@dimen/setting_views_margin_left"
+            android:paddingBottom="@dimen/setting_item_with_item"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/setting_views_margin_left"
+            android:paddingEnd="@dimen/setting_views_margin_left"
+            android:focusable="true">
+
+            <TextView
+                android:text="@string/privac_polic"
+                android:layout_centerVertical="true"
+                style="@style/TextViewSettingItemContentStyle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_about_terms_of_service"
+            android:background="@drawable/selector_basic_layout"
+            android:paddingLeft="@dimen/setting_views_margin_left"
+            android:paddingTop="@dimen/setting_item_with_item"
+            android:paddingRight="@dimen/setting_views_margin_left"
+            android:paddingBottom="@dimen/setting_item_with_item"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/setting_views_margin_left"
+            android:paddingEnd="@dimen/setting_views_margin_left"
+            android:focusable="true">
+
+            <TextView android:text="@string/terms_of_service"
+                android:layout_centerVertical="true"
+                style="@style/TextViewSettingItemContentStyle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_about_community"
+            android:background="@drawable/selector_basic_layout"
+            android:paddingLeft="@dimen/setting_views_margin_left"
+            android:paddingTop="@dimen/setting_item_with_item"
+            android:paddingRight="@dimen/setting_views_margin_left"
+            android:paddingBottom="@dimen/setting_item_with_item"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/setting_views_margin_left"
+            android:paddingEnd="@dimen/setting_views_margin_left"
+            android:focusable="true">
+
+            <TextView android:text="@string/string_community"
+                android:layout_centerVertical="true"
+                style="@style/TextViewSettingItemContentStyle" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginStart="@dimen/setting_views_margin_left"
+            style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+        <RelativeLayout android:id="@+id/rl_delete_account"
+            android:background="@drawable/selector_basic_layout"
+            android:paddingLeft="@dimen/setting_views_margin_left"
+            android:visibility="gone"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/setting_views_margin_left"
+            android:focusable="true">
+
+            <TextView
+                android:text="@string/delete_account"
+                android:layout_centerVertical="true"
+                style="@style/TextViewSettingItemContentStyle" />
+
+            <ImageView android:layout_width="@dimen/setting_button_next_length"
+                android:layout_height="@dimen/setting_button_next_length"
+                android:src="@drawable/icon_right_black_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

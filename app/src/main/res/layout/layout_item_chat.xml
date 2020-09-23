@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/white_normal" android:clipChildren="false"
+    android:clipToPadding="false" android:layout_width="fill_parent"
+    android:id="@+id/lyMessage"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dp5"
+    android:paddingTop="@dimen/dp5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout android:id="@+id/rl_chat_msg_avator"
+        android:clipChildren="false" android:clipToPadding="false"
+        android:layout_width="64.0dip" android:layout_height="64.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp16">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgvUserMessages"
+                android:layout_width="64.0dip"
+                android:layout_height="64.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_register_select_header"
+                />
+
+        <TextView android:textSize="@dimen/xxx_small_font"
+            android:textColor="@color/white_normal" android:gravity="center"
+            android:id="@+id/tv_chat_msg_count"
+            android:background="@drawable/shape_oval_12dp_red_ff5346_solid"
+            android:visibility="gone"
+            android:layout_width="22.0dip"
+            android:layout_height="22.0dip" android:layout_marginEnd="-4.0dip"
+            android:layout_alignParentEnd="true" />
+
+        <TextView android:textSize="@dimen/xxx_small_font"
+            android:textColor="@color/white_normal" android:gravity="center"
+            android:id="@+id/tv_chat_msg_more_ten_count"
+            android:background="@drawable/shape_corner_12dp_red_ff5346_solid"
+            android:paddingLeft="6.0dip"
+            android:paddingTop="2.0dip"
+            android:paddingRight="6.0dip" android:paddingBottom="2.0dip"
+            android:visibility="gone" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:paddingStart="6.0dip"
+            android:paddingEnd="6.0dip" android:layout_marginEnd="-4.0dip"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/rl_chat_msg_avator">
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal" android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:gravity="center_vertical"
+                android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+
+                <TextView android:textSize="@dimen/xxx_normal_font"
+                    android:textColor="@color/main_text"
+                    android:id="@+id/tvUsernameMessages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1" android:singleLine="true"
+                    android:fontFamily="@font/avenir_next_bold" />
+
+            </LinearLayout>
+
+            <TextView android:textSize="@dimen/x_small_font"
+                android:textColor="@color/black_3d242323"
+                android:id="@+id/tv_chat_msg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="16.0dip" />
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginEnd="16.0dip">
+
+            <TextView android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/gray_7a242323"
+                android:ellipsize="end"
+                android:id="@+id/tv_chat_msg_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View android:id="@+id/view_delete_color" android:background="@color/main_text"
+        android:visibility="invisible" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

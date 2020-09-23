@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    tools:context=".View.Random.SearchRandomActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/match_found"
+            android:textColor="@color/white_normal"
+            android:textSize="@dimen/xxxx_large_font"
+            android:fontFamily="@font/avenir_next_bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp10"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:textColor="@color/red_ff5346"
+                android:layout_marginTop="@dimen/dp5"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/imgvTypeCall"
+                android:background="@drawable/bg_me_avatar"
+                android:padding="@dimen/dp8"
+                android:layout_marginRight="@dimen/dp5"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_margin="@dimen/dp5"
+                />
+
+        <TextView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:text=""
+            android:textColor="@color/red_ff5346"
+            android:layout_marginTop="@dimen/dp5"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/avenir_next_bold"
+            android:id="@+id/tvcounter10secRequesCall"
+            android:background="@drawable/bg_me_avatar"
+            android:padding="@dimen/dp8"
+            android:layout_margin="@dimen/dp5"
+            android:layout_marginRight="@dimen/dp5"
+            android:layout_marginLeft="@dimen/dp5"
+            />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgvPhotoUserRandom"
+            android:visibility="visible"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            app:civ_border_color="@color/white_normal"
+            app:civ_border_width="3dp"
+            android:src="@drawable/icon_register_select_header"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white_normal"
+            android:layout_marginTop="@dimen/dp5"
+            android:textSize="@dimen/xx_large_font"
+            android:fontFamily="@font/avenir_next_demibold"
+            android:id="@+id/tvNameAgeSexRequesCall"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:orientation="horizontal"
+            >
+
+            <com.hbb20.CountryCodePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_normal"
+                android:id="@+id/ccpCountryReqCall"
+                app:ccp_showArrow="false"
+                app:ccp_showFullName="false"
+                app:ccp_showFlag="true"
+                app:ccp_autoDetectCountry="false"
+                app:ccp_showNameCode="false"
+                app:ccp_showPhoneCode="false"
+                android:layout_marginRight="@dimen/dp5"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:ccp_flagBorderColor="@color/white_normal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white_normal"
+                android:textSize="@dimen/xx_large_font"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:id="@+id/tvCountryRequesCall"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dp10"
+        >
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_red_center_white_border"
+            android:text="@string/accept"
+            android:textColor="@color/white"
+            android:fontFamily="@font/avenir_next_demibold"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:id="@+id/btnAcceptCall"
+            android:layout_margin="@dimen/dp10"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_white_center_red_border"
+            android:text="@string/next_verify"
+            android:textColor="@color/red_ff5346"
+            android:fontFamily="@font/avenir_next_demibold"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_margin="@dimen/dp10"
+            android:id="@+id/btnNextCall"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/st_wait_acce"
+            android:textSize="18sp"
+            android:fontFamily="@font/avenir_next_demibold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tvWaitAccept"
+            android:layout_marginTop="@dimen/dp10"
+            android:visibility="gone"
+            android:textColor="@color/gray_efecec"
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

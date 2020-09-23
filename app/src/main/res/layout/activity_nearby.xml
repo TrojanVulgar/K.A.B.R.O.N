@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_normal"
+    tools:context=".View.Profile.LanguagesActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:id="@+id/fltoolbarfilter"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imgvNearbyBack"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:src="@drawable/icon_left_back_arrow" />
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imgvNearbyReturnLastItem"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:visibility="gone"
+            android:src="@drawable/icon_back_last_title" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/main_text"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:text="@string/str_nearby"
+            android:maxLines="1"
+            android:layout_marginStart="60.0dip"
+            android:layout_marginEnd="60.0dip"
+            app:fontFamily="@font/avenir_next_bold"
+            style="@style/TitleBarContentTextStyle" />
+
+        <ImageView
+            android:layout_gravity="end|center"
+            android:id="@+id/imgvNearbyFilter"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:src="@drawable/icon_nearby_filter" />
+
+    </FrameLayout>
+    <View style="@style/AppTheme.SingleHorizontalLineStyle"
+        android:id="@+id/vFiltertoolbar"
+        android:layout_below="@+id/fltoolbarfilter"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/near_no_people"
+        android:gravity="center"
+        android:textSize="@dimen/xxx_large_font"
+        android:lines="2"
+        android:maxLines="2"
+        android:layout_margin="20dp"
+        android:visibility="visible"
+        android:id="@+id/tvNopeopleNearby"
+        android:fontFamily="@font/avenir_next_demibold"
+        android:textColor="@color/black72"
+        />
+
+
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/csvNearby"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llLikeBar"
+        android:visibility="visible"
+        android:layout_below="@+id/fltoolbarfilter"
+        android:clipToPadding="false" />
+
+    <LinearLayout
+        android:id="@+id/llLikeBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:clipChildren="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clipChildren="false">
+
+            <ImageView
+                android:id="@+id/imgvDislikeMatches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/mediumMargin"
+                android:src="@drawable/icon_dislike"
+                android:tag="binding_5" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clipChildren="false">
+
+            <ImageView
+                android:id="@+id/imgvLikeMatches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/mediumMargin"
+                android:src="@drawable/icon_like"
+                android:tag="binding_6" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <include layout="@layout/dialog_nearby_filter"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

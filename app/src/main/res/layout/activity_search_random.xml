@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    tools:context=".View.Random.SearchRandomActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_common_nav_exit"
+                android:layout_margin="@dimen/dp5"
+                android:id="@+id/imgvExitSearch"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/searching"
+                android:textColor="@color/white_normal"
+                android:textSize="@dimen/xx_large_font"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dp10"
+            >
+
+
+            <com.agrawalsuneet.dotsloader.loaders.CircularDotsLoader
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:loader_animDur="100"
+                app:loader_bigCircleRadius="42dp"
+                app:loader_circleRadius="12dp"
+                android:layout_gravity="center"
+                app:loader_showRunningShadow="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_fr_tlj_t"
+                android:textColor="@color/gray_efecec"
+                android:layout_marginTop="@dimen/dp10"
+                android:textSize="@dimen/xxx_normal_font"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/avenir_next_demibold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/red_ff5346"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/xxx_normal_font"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:id="@+id/tvNameSexSearch"
+                android:padding="@dimen/dp8"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_filter_option"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp8"
+                android:orientation="horizontal"
+                android:id="@+id/llcountryshowSearch"
+                android:background="@drawable/selector_filter_option"
+                android:padding="@dimen/dp8"
+                android:layout_gravity="center"
+                >
+
+                <com.hbb20.CountryCodePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ccpCountrySearch"
+                    app:ccp_showArrow="false"
+                    app:ccp_showFullName="false"
+                    app:ccp_showFlag="true"
+                    app:ccp_autoDetectCountry="false"
+                    app:ccp_showNameCode="false"
+                    app:ccp_showPhoneCode="false"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    app:ccp_flagBorderColor="@color/white"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_worldwide"
+                    android:id="@+id/imgvGlobalSearch"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_marginEnd="@dimen/dp5"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_ff5346"
+                    android:textSize="@dimen/xxx_large_font"
+                    android:fontFamily="@font/avenir_next_demibold"
+                    android:id="@+id/tvCountrySearch"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+            <com.facebook.ads.NativeAdLayout
+                android:id="@+id/native_ad_container_search"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="@dimen/dp8"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

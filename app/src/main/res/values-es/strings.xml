@@ -1,0 +1,204 @@
+<?xml version="1.1" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name = "arr_languages">
+        <item> Árabe </item>
+        <item> Inglés </item>
+        <item> Francés </item>
+        <item> Español </item>
+        <item> Alemán </item>
+        <item> Indio </item>
+        <item> italiano </item>
+        <item> indonesio </item>
+        <item> portugués </item>
+        <item> paquistaní </item>
+        <item> turco </item>
+    </string-array>
+
+    <string name = "login_btn_facebook"> Conéctese con Facebook </string>
+    <string name = "login_btn_phone"> Conectar con número de teléfono </string>
+    <string name = "meet_nfun_npeople_nnow"> Reunirse \nDivertido \nPersonas \nAhora </string>
+    <string name = "log_into_holala"> Inicie sesión en HOLALA </string>
+    <string name = "enter_mobile_number"> Ingrese el número de teléfono móvil </string>
+    <string name = "send_sms_code"> Enviar código SMS </string>
+    <string name = "login_enter_code"> Ingrese su código </string>
+    <string name = "login_enter_mobile"> Ingrese su número de móvil </string>
+    <string name = "login_input_resent"> Reenviar código </string>
+    <string name = "next_verify"> Siguiente </string>
+    <string name = "login_statement_sms"> Al iniciar sesión, confirma que acepta nuestros <u> Términos de servicio </u> y <u> Política de privacidad </u>. Recibirá un SMS para confirmar su número de teléfono móvil. Se puede aplicar una tarifa por SMS. </string>
+    <string name = "string_name"> Nombre </string>
+    <string name = "age_string"> Edad </string>
+    <string name = "string_boy"> Niño </string>
+    <string name = "string_girtl"> Chica </string>
+    <string name = "string_confirm"> Confirmar </string>
+    <string name = "string_gender"> Sexo </string>
+    <string name = "string_birthday"> Cumpleaños </string>
+    <string name = "un13"> Tiene menos de 18 años. </string>
+    <string name = "upload_clear_avatar"> Cargue una imagen clara, más personas querrán hablar con usted. </string>
+    <string name = "string_good"> Bien </string>
+    <string name = "string_bad"> Mal </string>
+    <string name = "me_preview_entrance"> Vista previa de mi perfil </string>
+    <string name = "strign_settings"> Configuración </string>
+    <string name = "notifications"> Notificaciones </string>
+    <string name = "write_a_review"> Escribir una reseña </string>
+    <string name = "about_holala"> Acerca de HOLALA </string>
+    <string name = "send_segges"> Enviar sugerencias </string>
+    <string name = "log_out"> Cerrar sesión </string>
+    <string name = "string_language"> Idioma </string>
+    <string name = "version_app"> versión</string>
+
+    <string name = "privac_polic"> <u> Política de privacidad </u> </string>
+    <string name = "privac_polic_title"> Política de privacidad </string>
+    <string name = "terms_of_service"> <u> Términos de servicio </u> </string>
+    <string name = "terms_of_service_title"> Términos de servicio </string>
+    <string name = "delete_account"> Eliminar cuenta </string>
+    <string name = "edit_profile"> Editar perfil </string>
+    <string name = "profile_preview"> Vista previa del perfil </string>
+    <string name = "edit_profile_picture_subtitle"> Presione y arrastre para ordenar sus fotos. </string>
+    <string name = "edit_profile_school_default"> Agregar escuela </string>
+    <string name = "edit_profile_name_empty_tips"> Esto no se puede dejar en blanco </string>
+    <string name = "edit_profile_about_me_title"> acerca de </string>
+    <string name = "edit_profile_about_me_default"> Comparte algo interesante sobre ti </string>
+    <string name = "string_school"> Escuela </string>
+    <string name = "string_job"> Trabajo </string>
+    <string name = "edit_profile_job_default"> Agregar título del trabajo </string>
+    <string name = "edit_profile_content_violation_tips"> Hay contenido inapropiado en la información de su perfil, actualícelo. </string>
+    <string name = "string_chat"> Chat </string>
+    <string name = "search_my_friends"> Buscar en mis amigos </string>
+    <string name = "string_cancel"> Cancelar </string>
+    <string name = "string_nearby_mode"> Modo cercano </string>
+    <string name = "string_meet_nearby_people"> Conozca a personas cercanas </string>
+    <string name = "new_match_list_title"> Nuevos amigos </string>
+    <string name = "string_profile"> Perfil </string>
+    <string name = "string_convers"> Conversaciones </string>
+    <string name = "match_with_others"> ¡Combina con otros! </string>
+    <string name = "try_now_sting"> Probar ahora </string>
+    <string name = "tap_the_screen_to_start"> Toque la pantalla para comenzar </string>
+    <string name = "guys_girls">Chicos &amp; Chicas</string>
+    <string name = "string_video_filter"> Filtro de modo de video </string>
+    <string name = "string_voice_filter"> Filtro de modo de voz </string>
+    <string name = "filter_online_gender_title"> Coincidir con </string>
+    <string name = "string_girl"> Chica </string>
+    <string name = "string_guy"> Chico </string>
+    <string name = "string_both"> Ambos </string>
+    <string name = "regional_pref_title"> Preferencia de región </string>
+    <string name = "str_tags"> Etiquetas </string>
+    <string name = "sutitl_splash"> de RIFCODE </string>
+    <string name = "veif_fealed_phone"> Error de verificación, inténtelo de nuevo. </string>
+    <string name = "very_otp"> Se produjo un error al verificar OTP </string>
+    <string name = "plnmpho"> Ingrese su número de teléfono </string>
+    <string name = "auth_success"> Autenticación correcta </string>
+    <string name = "vercodenovalid"> El código de verificación ingresado no era válido </string>
+    <string name = "enter_verifi_code"> Ingrese el código de verificación. </string>
+    <string name = "string_camera"> Cámara </string>
+    <string name = "string_photo"> Foto </string>
+    <string name = "camera_perms_denied"> Permiso de cámara denegado </string>
+    <string name = "camera_perm_granted"> Permiso de cámara otorgado </string>
+    <string name = "cs"> PERMISO LEER ALMACENAMIENTO EXTERNO OTORGADO </string>
+    <string name = "csdd"> PERMISO LEER ALMACENAMIENTO EXTERNO NEGADO </string>
+    <string name = "cg"> Elegir galería </string>
+    <string name = "toast_image_change_succ_profile"> Su imagen cambia con éxito </string>
+    <string name = "dbauthf"> La autenticación de Facebook falló. </string>
+    <string name = "lcancl"> Iniciar sesión Cancelar </string>
+    <string name = "lod_phone"> Número de teléfono de verificación … </string>
+    <string name = "pd_uplod_photo"> Subiendo foto … </string>
+    <string name = "entyname"> Ingrese su nombre </string>
+    <string name = "greater6name"> su nombre debe ser Mayor que 6 </string>
+    <string name = "data_save_seccff"> Los datos se guardan correctamente. </string>
+    <string name = "clear_cache"> Borrar caché </string>
+    <string name = "rating_title"> ¿Te diviertes en HOLALA? </string>
+    <string name = "rating_des_android"> ¡Háganos saber con una crítica positiva! </string>
+    <string name = "string_ok"> OK </string>
+    <string name = "string_rules"> Reglas </string>
+    <string name = "string_answers"> Respuestas </string>
+    <string name = "string_community"> Comunidad </string>
+    <string name = "are_you_sure_you_want_to_logout"> ¿Está seguro de que desea cerrar sesión? </string>
+    <string name = "suggestions"> Sugerencias </string>
+
+    <string name = "send_us_your_suggestions_about_holala_app"> Envíenos sus sugerencias sobre la aplicación HOLALA. </string>
+    <string name = "string_send"> ENVIAR </string>
+    <string name = "string_hint_sugges"> Deje su sugerencia aquí </string>
+    <string name = "pu_seggestoion"> Pon tu sugerencia por favor. </string>
+    <string name = "str_send_segg_test"> Su sugerencia se envió correctamente. </string>
+    <string name = "clsucc"> Borrar la caché de datos correctamente </string>
+    <string name = "cldataf"> Error al borrar caché de datos </string>
+    <string name = "str_languages"> Idiomas </string>
+    <string name = "str_nearby"> Cercano </string>
+    <string name = "filter_nearby_title"> Filtro cercano </string>
+    <string name = "filter_nearby_gender_title"> Quiero conocer </string>
+    <string name = "enable_gps"> Inténtalo de nuevo </string>
+    <string name = "str_ops"> Vaya </string>
+    <string name = "must_enable_location"> La ubicación de su dispositivo parece estar deshabilitada. Debe permitir el acceso a la ubicación para poder usar HOLALA. Por favor intente nuevamente </string>
+    <string name = "sorry_noflocarion"> Lo sentimos, su ubicación no se encuentra. </string>
+    <string name = "fine_location_perm_granted"> Permiso de ubicación otorgado </string>
+    <string name = "fine_location_perms_denied"> Permiso de ubicación denegado </string>
+    <string name = "near_no_people"> No hay personas cerca de usted en este momento, intente nuevamente más tarde </string>
+    <string name = "about_me"> Acerca </string>
+    <string name = "send_message"> Enviar mensaje </string>
+    <string name = "write_new_message"> Escribir un mensaje </string>
+    <string name = "char_remove_secc"> Se eliminaron los mensajes y el chat correctamente. </string>
+    <string name = "string_unmatch"> UnMatch </string>
+    <string name = "stg_report"> Informe </string>
+    <string name = "inappropriate_photos"> Fotos inapropiadas </string>
+    <string name = "profile_is_spam"> El perfil es spam </string>
+    <string name = "report_block">Informe &amp; bloqueo</string>
+    <string name = "strg_confirm"> Confirmar </string>
+    <string name = "lose_msg_unmatch"> Perderá todo su mensaje con este usuario si no coincide. </string>
+    <string name = "are_you_sure"> ¿Estás seguro? </string>
+    <string name = "searching"> Buscando … </string>
+    <string name = "log_fr_tlj_t"> Buscando un amigo con quien hablar </string>
+    <string name = "accept"> Aceptar </string>
+    <string name = "match_found"> ​​Coincidencia encontrada </string>
+    <string name = "country"> País </string>
+    <string name = "global"> Mundo </string>
+    <string name = "str_guys"> Chicos </string>
+    <string name = "str_girls"> Chicas </string>
+    <string name = "st_wait_acce"> Espere su aceptación. </string>
+    <string name = "str_send_reau_seccss"> Agregar solicitud enviada correctamente. </string>
+    <string name = "stt_send_resfr"> Tu pareja envía esta solicitud de amistad, ¿Quieres rechazarla o aceptarla? </string>
+    <string name = "tit_fr_rest"> Solicitud de amistad </string>
+    <string name = "str_decl"> Rechazar </string>
+    <string name = "g_s_c"> Regalo enviado con éxito. </string>
+    <string name = "vcss"> La videollamada se envió correctamente. </string>
+    <string name = "recent_search"> Búsqueda reciente </string>
+    <string name="press_back">Haga clic en ATRÁS nuevamente para salir</string>
+    <string name = "in_app_purchases_gems"> Gemas de compras en la aplicación: </string>
+
+    <string name = "in_app_subscriptions"> Suscripciones en la aplicación: </string>
+    <string name = "use_send_gift"> Úselo para enviar un regalo. </string>
+    <string name = "use_for_search_girls"> Úselo para buscar chicas. </string>
+    <string name = "use_for_change_country_in_search"> Usar para cambiar el país en la búsqueda. </string>
+    <string name = "use_for_send_message_in_history_search"> Úselo para chatear con búsqueda de historial. </string>
+    <string name = "unlimited_searching_girls_change_country"> Búsqueda ilimitada (chicas / cambiar de país). </string>
+    <string name = "unlimited_send_gifts"> Envío ilimitado de regalos. </string>
+    <string name = "unlimited_chat_history_mode"> Modo de historial de chat ilimitado. </string>
+    <string name = "remove_all_ads"> Elimina todos los ADS. </string>
+    <string name = "buy"> Comprar </string>
+    <string name = "purchase_gems"> Comprar gemas </string>
+    <string name = "gems"> Gemas </string>
+    <string name = "free_gems"> Gemas gratis </string>
+    <string name = "check_in_every_day"> Registro todos los días </string>
+    <string name = "check_in"> Registro </string>
+
+    <string name = "turn_on"> Activar </string>
+    <string name = "turn_on_notifications"> Activar notificaciones </string>
+
+    <string name = "watch_rewarded_video_ads"> Vea anuncios de video recompensados ​​cada 30 minutos </string>
+    <string name = "watch_ads"> Ver anuncios </string>
+
+    <string name = "your_first_video_match"> Tu primera videollamada. </string>
+    <string name = "firs_voice_match"> Tu primera llamada de voz. </string>
+
+    <string name = "earn_strg"> Gane </string>
+    <string name = "your_first_friend_match"> Tu primera pareja de amigos. </string>
+    <string name = "invite_frens"> Invita a tus amigos a instalar la aplicación y regístrate para ganar gemas </string>
+    <string name = "inv_str"> Invitar </string>
+    <string name = "earn_you"> GUAU. Ganaste gemas </string>
+    <string name = "purch_secc"> Compra con éxito </string>
+    <string name = "bilical"> Facturación cancelada </string>
+    <string name = "subseccf"> Suscripción exitosa </string>
+    <string name = "free"> GRATIS </string>
+    <string name = "month"> Mes </string>
+    <string name = "month_srt"> Meses </string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white_normal"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout android:orientation="vertical"
+        android:id="@+id/ll_above_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="56.0dip">
+
+                <ImageView android:layout_gravity="end"
+                    android:id="@+id/imgvMe_top_setting"
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:src="@drawable/icon_setting_strok" />
+
+
+
+                <TextView
+                    android:textColor="@color/main_text"
+                    android:ellipsize="end"
+                    android:layout_gravity="center"
+                    android:text="@string/string_profile"
+                    android:maxLines="1"
+                    android:layout_marginStart="60.0dip"
+                    android:layout_marginEnd="60.0dip"
+                    app:fontFamily="@font/avenir_next_bold"
+                    style="@style/TitleBarContentTextStyle" />
+
+
+            </FrameLayout>
+            <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+        <RelativeLayout android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_me_edit"
+            android:layout_width="160.0dip"
+            android:layout_height="160.0dip"
+            android:layout_marginTop="@dimen/dp10"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgvMeAvatar"
+                android:background="@drawable/bg_me_avatar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_register_select_header"
+                app:civ_border_color="@color/transparent"
+                app:civ_border_width="10.0dip"
+                />
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-5.0dip"
+                android:id="@+id/imgvMeEditProfile"
+                android:src="@drawable/icon_common_edit"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-5.0dip"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+
+            <TextView android:textSize="@dimen/xxxx_large_font"
+                android:textColor="@color/black_normal_darker"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tvMeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:fontFamily="@font/avenir_next_bold" />
+
+            <ImageView android:layout_gravity="center_vertical"
+                android:id="@+id/imgvMeGenderIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2.0dip" />
+
+
+        </LinearLayout>
+
+        <TextView android:textSize="@dimen/x_normal_font"
+            android:textColor="@color/black_3d242323"
+            android:id="@+id/tvMePreviewProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/me_preview_entrance"
+            android:layout_gravity="center"
+            />
+
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:id="@+id/my_template_profile"
+            app:gnt_template_type="@layout/gnt_medium_template_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="56dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

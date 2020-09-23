@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    android:layout_marginLeft="@dimen/dp8"
+    android:layout_marginRight="@dimen/dp8"
+    android:layout_marginTop="@dimen/dp4"
+    android:layout_marginBottom="@dimen/dp4">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/shader_card_view"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/gray_primary"
+        android:layout_marginRight="@dimen/dp5"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginTop="@dimen/dp4"
+        android:layout_marginBottom="@dimen/dp4"
+        app:cardCornerRadius="@dimen/card_corner_radius">
+
+<!--        <ImageView-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:id="@+id/iv_card_item"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:scaleType="centerCrop" />-->
+
+
+
+
+        <View android:layout_gravity="bottom"
+            android:visibility="visible"
+            android:background="@drawable/shape_corner_10dp_black_card_bkg_solid"
+            android:layout_width="fill_parent" android:layout_height="150.0dip" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vpPreviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.viewpagerindicator.LinePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/vpPreviewProfile"
+                app:strokeWidth="5dp"
+                app:lineWidth="40dp"
+                app:unselectedColor="@color/mask_primary_white"
+                app:selectedColor="@color/white_normal"
+                android:paddingLeft="@dimen/dp5"
+                android:paddingRight="@dimen/dp5"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/lyLeftSwip"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/lyRightSwip"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+
+        </LinearLayout>
+
+<!--        <TextView android:textSize="14.0sp"-->
+<!--            android:textColor="@color/white_normal" android:gravity="center"-->
+<!--            android:layout_gravity="end|center|top"-->
+<!--            android:id="@+id/tv_goddess_call_fee"-->
+<!--            android:background="@drawable/shape_corner_10dp_gray_33ffffff_stroke"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" android:layout_margin="16.0dip"-->
+<!--            android:minHeight="20.0dip" android:paddingStart="4.0dip"-->
+<!--            android:paddingEnd="4.0dip" />-->
+
+<!--        <ImageView android:layout_gravity="end|center|top"-->
+<!--            android:id="@+id/iv_spot_light" android:visibility="gone"-->
+<!--            android:layout_width="32.0dip" android:layout_height="32.0dip"-->
+<!--            android:layout_margin="20.0dip" android:src="@drawable/icon_spotlight"-->
+<!--            android:scaleType="fitXY" />-->
+
+        <RelativeLayout android:layout_gravity="bottom"
+            android:id="@+id/rl_default_info_content"
+            android:visibility="visible"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_info_bar_margin_bottom"
+            android:layout_marginStart="@dimen/card_info_bar_margin_horizontal"
+            android:layout_marginEnd="@dimen/card_info_bar_margin_horizontal">
+
+            <LinearLayout android:orientation="vertical"
+                android:id="@+id/ll_information_bar"
+                android:paddingTop="12.0dip"
+                android:paddingBottom="12.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="50.0dip">
+
+                <TextView android:textSize="20.0sp"
+                    android:textColor="@color/white_normal"
+                    android:gravity="center_vertical"
+                    android:id="@+id/tv_bar_name_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/avenir_next_bold" />
+
+
+            </LinearLayout>
+
+
+
+<!--            <LinearLayout android:gravity="end" android:orientation="vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_alignParentEnd="true">-->
+
+<!--                <LinearLayout android:gravity="center" android:layout_gravity="end" android:orientation="vertical" android:id="@+id/ll_online_token" android:visibility="gone" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-33.0dip" android:layout_marginEnd="20.0dip">-->
+
+<!--&lt;!&ndash;                    <com.exutech.chacha.app.widget.swipecard.card.CountDownView &ndash;&gt;-->
+<!--&lt;!&ndash;                        android:id="@id/cdv_card_item" &ndash;&gt;-->
+<!--&lt;!&ndash;                        android:visibility="visible" &ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="48.0dip" android:layout_height="48.0dip" />&ndash;&gt;-->
+
+<!--                    <TextView android:textSize="14.0sp"-->
+<!--                        android:textColor="@color/blue_3edbff"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/live_status"-->
+<!--                        android:fontFamily="@font/avenir_next_demibold" />-->
+
+<!--                </LinearLayout>-->
+
+<!--                <ImageView android:layout_gravity="end|center" android:id="@+id/iv_bar_country_flag" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginTop="11.0dip" android:layout_marginEnd="16.0dip" />-->
+
+<!--            </LinearLayout>-->
+
+            <ImageView android:id="@+id/iv_info_icon"
+                android:visibility="visible"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip"
+                android:src="@drawable/icon_info_48dp"
+                android:layout_alignBottom="@id/ll_information_bar"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <include android:layout_gravity="bottom" android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:layout_marginBottom="45.0dip"
+            android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip"
+            layout="@layout/card_pop_inf_layout" />
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <ImageView android:layout_gravity="bottom|center"-->
+<!--        android:id="@+id/iv_bottom_like" android:visibility="gone"-->
+<!--        android:layout_width="64.0dip" android:layout_height="64.0dip"-->
+<!--        android:layout_marginLeft="60.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/icon_like" />-->
+
+<!--    <ImageView android:layout_gravity="bottom|center"-->
+<!--        android:id="@+id/iv_bottom_dis" android:visibility="gone"-->
+<!--        android:layout_width="64.0dip" android:layout_height="64.0dip"-->
+<!--        android:layout_marginLeft="-60.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/icon_dislike" />-->
+
+
+</FrameLayout>

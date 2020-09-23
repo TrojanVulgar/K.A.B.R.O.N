@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/dp8"
+    android:background="@color/black_normal_darker"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginBottom="@dimen/dp10"
+        android:drawableStart="@drawable/img_limit_product_group"
+        android:drawablePadding="@dimen/dp8"
+        android:fontFamily="@font/avenir_next_bold"
+        android:text="@string/purchase_gems"
+        android:textColor="@color/white_normal"
+        android:textSize="@dimen/x_large_font" />
+
+    <TextView
+        android:textSize="@dimen/x_normal_font"
+        android:textColor="@color/white_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_send_gift"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp10"
+        android:drawableStart="@drawable/icon_points_20dp"
+        android:drawablePadding="@dimen/dp5"
+        android:fontFamily="@font/avenir_next_demibold" />
+
+    <TextView
+        android:textSize="@dimen/x_normal_font"
+        android:textColor="@color/white_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_for_search_girls"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        android:drawableStart="@drawable/icon_points_20dp"
+        android:drawablePadding="@dimen/dp5"
+        android:fontFamily="@font/avenir_next_demibold" />
+
+    <TextView
+        android:textSize="@dimen/x_normal_font"
+        android:textColor="@color/white_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_for_change_country_in_search"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        android:drawableStart="@drawable/icon_points_20dp"
+        android:drawablePadding="@dimen/dp5"
+        android:fontFamily="@font/avenir_next_demibold" />
+
+    <TextView
+        android:textSize="@dimen/x_normal_font"
+        android:textColor="@color/white_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_for_send_message_in_history_search"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        android:drawableStart="@drawable/icon_points_20dp"
+        android:drawablePadding="@dimen/dp5"
+        android:fontFamily="@font/avenir_next_demibold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dp8"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_filter_option"
+            android:padding="8dp"
+            android:gravity="center"
+            android:id="@+id/ly100gems"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp">
+
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/gem"
+                android:layout_marginBottom="8dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_100_gems"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/main_text"
+                android:fontFamily="@font/avenir_next_regular"
+                android:background="@drawable/selector_basic_language_layout"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 1.99"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="22sp"
+                android:textColor="@color/orange_ff8806"
+                android:fontFamily="@font/avenir_next_bold"
+                android:id="@+id/tvPrice100Gems"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_filter_option"
+            android:padding="8dp"
+            android:id="@+id/ly500gems"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp">
+
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/gem"
+                android:layout_marginBottom="8dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_500_gems"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/main_text"
+                android:fontFamily="@font/avenir_next_regular"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 5.99"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="22sp"
+                android:textColor="@color/orange_ff8806"
+                android:fontFamily="@font/avenir_next_bold"
+                android:id="@+id/tvPrice500Gems"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_filter_option"
+            android:padding="8dp"
+            android:gravity="center"
+            android:id="@+id/ly1000gems"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp">
+
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/gem"
+                android:layout_marginBottom="8dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1000_gems"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/main_text"
+                android:fontFamily="@font/avenir_next_regular"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/avenir_next_bold"
+                android:gravity="center"
+                android:text="$ 9.99"
+                android:textColor="@color/orange_ff8806"
+                android:textSize="22sp"
+                android:id="@+id/tvPrice1000Gems"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp8"
+        android:text="@string/buy"
+        android:id="@+id/btnBuyGems"
+        android:textColor="@color/white_normal"
+        android:fontFamily="@font/avenir_next_demibold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_corner_btnlogin_next_sendcode_red"
+        />
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white_normal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imgvSettingsBack"
+            android:layout_width="44.0dip"
+            android:layout_height="44.0dip"
+            android:src="@drawable/icon_left_back_arrow" />
+
+        <TextView
+            android:textColor="@color/main_text"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:text="@string/strign_settings"
+            android:maxLines="1"
+            android:layout_marginStart="60.0dip"
+            android:layout_marginEnd="60.0dip"
+            app:fontFamily="@font/avenir_next_bold"
+            style="@style/TitleBarContentTextStyle" />
+
+    </FrameLayout>
+    <View style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+    <ScrollView
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@+id/rl_languages"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingEnd="4.0dip">
+
+                <TextView
+                    android:text="@string/string_language"
+                    android:layout_centerVertical="true"
+                    style="@style/TextViewSettingItemContentStyle" />
+
+                <ImageView
+                    android:layout_width="@dimen/setting_button_next_length"
+                    android:layout_height="@dimen/setting_button_next_length"
+                    android:src="@drawable/icon_right_black_arrow"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+            <View android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@+id/rl_setting_about"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingEnd="4.0dip">
+
+                <TextView android:text="@string/about_holala"
+                    android:layout_centerVertical="true" style="@style/TextViewSettingItemContentStyle" />
+
+                <ImageView
+                    android:layout_width="@dimen/setting_button_next_length"
+                    android:layout_height="@dimen/setting_button_next_length"
+                    android:src="@drawable/icon_right_black_arrow"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+            <View android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+
+
+            <RelativeLayout android:gravity="center_vertical"
+                android:id="@+id/rl_setting_review"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="4.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+
+                <TextView android:text="@string/write_a_review"
+                    android:layout_centerVertical="true"
+                    style="@style/TextViewSettingItemContentStyle" />
+
+            </RelativeLayout>
+            <View android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@+id/rl_setting_send_suggestions"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="4.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+
+                <TextView android:text="@string/send_segges"
+                    android:layout_centerVertical="true"
+                    style="@style/TextViewSettingItemContentStyle" />
+
+
+            </RelativeLayout>
+            <View android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@+id/rl_setting_clear_cache"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="4.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+
+                <TextView android:text="@string/clear_cache"
+                    android:layout_centerVertical="true"
+                    style="@style/TextViewSettingItemContentStyle" />
+
+
+            </RelativeLayout>
+
+            <View android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@+id/rl_notifications"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="4.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+
+                <TextView
+                    android:text="@string/notifications"
+                    android:layout_centerVertical="true"
+                    style="@style/TextViewSettingItemContentStyle" />
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/sbSettingsNotification"
+                    style="@style/AppTheme.NewSwitchButton"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </RelativeLayout>
+
+            <View android:layout_marginStart="@dimen/setting_views_margin_left" style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@+id/rl_setting_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="4.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                >
+
+                <TextView android:text="@string/log_out"
+                    android:layout_centerVertical="true"
+                    style="@style/TextViewSettingItemContentStyle" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

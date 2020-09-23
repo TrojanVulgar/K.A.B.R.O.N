@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="280.0dip"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white_normal"
+        app:cardCornerRadius="12.0dip"
+        app:cardElevation="@dimen/common_dialog_view_elevation"
+        app:contentPaddingLeft="0.0dip" app:contentPaddingRight="0.0dip">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:textSize="@dimen/xxx_normal_font"
+                android:textColor="@color/red_primary"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="18.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suggestions"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:paddingStart="@dimen/common_dialog_message_padding_left"
+                android:paddingEnd="@dimen/common_dialog_message_padding_right" />
+
+            <TextView android:textSize="@dimen/xx_normal_font"
+                android:textColor="@color/main_text"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_us_your_suggestions_about_holala_app"
+                android:paddingStart="@dimen/common_dialog_message_padding_left"
+                android:paddingEnd="@dimen/common_dialog_message_padding_right" />
+
+            <EditText android:textSize="@dimen/xx_normal_font"
+                android:textColor="@color/main_text"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/common_dialog_message_padding_left"
+                android:paddingBottom="@dimen/common_dialog_message_padding_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLength="250"
+                android:id="@+id/edtTextSuggestion"
+                android:hint="@string/string_hint_sugges"
+                android:paddingStart="@dimen/common_dialog_message_padding_left"
+                android:paddingEnd="@dimen/common_dialog_message_padding_right" />
+
+            <LinearLayout style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+
+                <TextView android:textSize="@dimen/xxx_normal_font"
+                    android:textColor="@color/gray_primary_lighter"
+                    android:gravity="center"
+                    android:id="@+id/tv_dialog_suggestion_cancel"
+                    android:paddingTop="@dimen/common_dialog_confirm_button_padding_top"
+                    android:paddingBottom="@dimen/common_dialog_confirm_button_padding_bottom"
+                    android:layout_width="0.0dip" android:layout_height="wrap_content"
+                    android:text="@string/string_cancel" android:layout_weight="1.0"
+                    android:fontFamily="@font/avenir_next_demibold"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    />
+
+                <LinearLayout
+                    style="@style/AppTheme.SingleVerticalLineStyle" />
+
+                <TextView android:textSize="@dimen/xxx_normal_font"
+                    android:textColor="@color/red_primary"
+                    android:gravity="center"
+                    android:id="@+id/tv_dialog_suggestion_confirm"
+                    android:paddingTop="@dimen/common_dialog_confirm_button_padding_top"
+                    android:paddingBottom="@dimen/common_dialog_confirm_button_padding_bottom"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_send"
+                    android:layout_weight="1.0"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="@font/avenir_next_demibold"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

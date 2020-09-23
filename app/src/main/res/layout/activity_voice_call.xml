@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" android:id="@+id/rl_slide_wrapper"
+    android:background="@drawable/side_nav_magic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout android:id="@+id/ll_voicemode" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_width="match_parent" android:layout_height="0.0dip"
+                android:layout_weight="1.0" layout="@layout/view_voice_call_user" />
+            <include android:id="@+id/view_voice_call_tool"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/view_voice_call_tool" />
+
+
+        </LinearLayout>
+
+        <FrameLayout android:id="@+id/Voice_call_full" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_voice_call_right_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10.0dip"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dp4"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_voice_call_microphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onLocalAudioMuteClicked"
+                android:src="@drawable/selector_voice_user_microphone" />
+
+            <ImageView
+                android:id="@+id/iv_voice_call_loudspeaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onSwitchSpeakerphoneClicked"
+                android:src="@drawable/selector_voice_user_loudspeaker" />
+        </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_chat_messages_Voice"
+                android:fadingEdgeLength="50.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70.0dip"
+                android:layout_alignParentBottom="true"
+                android:requiresFadingEdge="vertical"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+
+                />
+
+
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearlayout_discover_touchable_view" android:background="@android:color/transparent" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+
+
+        <LinearLayout android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/linearlayout_discover_input_messageVoice"
+            android:background="@android:color/white"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0.0dip"
+            android:layout_alignParentBottom="true"
+            android:paddingStart="8.0dip" android:paddingEnd="4.0dip">
+
+            <EditText android:textSize="@dimen/x_normal_font"
+                android:textColor="@color/black_primary_lighter"
+                android:textColorHint="@color/black_3d242323"
+                android:gravity="center_vertical"
+                android:id="@+id/edittext_discover_input_messageVoice"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:hint="@string/send_message"
+                android:inputType="textNoSuggestions"
+                android:layout_weight="1"
+                android:imeOptions="actionSend" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgCloseEdtMessageVoice"
+                android:src="@drawable/icon_down_arrows"
+                android:paddingStart="8.0dip"
+                android:paddingEnd="8.0dip"
+                />
+
+        </LinearLayout>
+
+        <FrameLayout android:id="@+id/fragment_videocall_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/v_send_gift_success"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            app:lottie_scale="1"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

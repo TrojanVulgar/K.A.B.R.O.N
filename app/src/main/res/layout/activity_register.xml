@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal"
+    android:background="@color/white_normal"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/ll_register_content"
+        android:background="@color/white_normal"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+        <RelativeLayout android:visibility="visible"
+            android:background="@drawable/register_avatar_bg"
+            android:layout_width="144.0dip"
+            android:layout_height="144.0dip"
+            android:layout_marginTop="@dimen/register_circleimage_margin_top"
+            android:layout_marginBottom="@dimen/register_circleimage_margin_bottom">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgvRegisterUser"
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                android:src="@drawable/icon_register_select_header"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:id="@+id/rl_register_loading"
+                android:background="@drawable/shape_35dp_20_alpha"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ProgressBar android:layout_gravity="center"
+                    android:layout_width="80.0dip"
+                    android:layout_height="80.0dip"
+                    android:indeterminate="false"
+                    android:layout_centerInParent="true"
+                     />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_register_name_background"
+            android:background="@drawable/selector_edit_text_background"
+            android:focusable="true" android:focusableInTouchMode="true"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/register_radiogroup_height"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon" android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon">
+
+            <TextView
+                android:textSize="@dimen/xx_normal_font"
+                android:textColor="@color/main_text"
+                android:textColorHint="@color/black_3d242323"
+                android:gravity="center"
+                android:id="@+id/tvRegister_name"
+                android:background="@null"
+                android:nextFocusUp="@+id/edtRegister_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/string_name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:maxLength="15"
+                android:layout_centerInParent="true"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:textCursorDrawable="@drawable/shape_edit_text_cursor"
+                android:fontFamily="@font/avenir_next_demibold" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_register_name_line"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon"
+            style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+        <TextView android:textSize="@dimen/xx_normal_font"
+            android:textColor="@color/black_3d242323"
+            android:gravity="center"
+            android:id="@+id/tvRegister_age"
+            android:layout_width="fill_parent"
+            android:layout_height="56.0dip"
+            android:text="@string/age_string"
+            android:maxLines="1"
+            android:fontFamily="@font/avenir_next_demibold" />
+
+        <View
+            android:layout_marginLeft="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginRight="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon"
+            style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+        <RadioGroup android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/rg_register_select_sex"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/register_radiogroup_height">
+
+            <RadioButton
+                android:id="@+id/rb_register_male"
+                android:text="@string/string_boy"
+                android:drawableStart="@drawable/selector_register_male"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:layout_marginEnd="40.0dip"
+                style="@style/GegisterRadioButtonStyle" />
+
+            <View android:background="@color/white_f7f4f3"
+                android:layout_width="2.0dip"
+                android:layout_height="fill_parent" />
+
+            <RadioButton
+                android:id="@+id/rb_register_female"
+                android:text="@string/string_girtl"
+                android:drawableStart="@drawable/selector_register_female"
+                android:fontFamily="@font/avenir_next_demibold"
+                android:layout_marginStart="40.0dip"
+                style="@style/GegisterRadioButtonStyle" />
+
+        </RadioGroup>
+
+        <View android:layout_marginLeft="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginRight="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
+            android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon"
+            style="@style/AppTheme.SingleHorizontalLineStyle" />
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_register_confirm"
+        android:visibility="invisible" />
+
+    <TextView android:textSize="@dimen/xxx_normal_font"
+        android:textColor="@color/white_normal"
+        android:gravity="center"
+        android:id="@+id/btn_register_confirm"
+        android:background="@color/red_ff5346"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/register_button_confirm_height"
+        android:layout_marginTop="@dimen/register_button_confirm_margin_top"
+        android:text="@string/string_confirm"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/avenir_next_bold" />
+
+
+</RelativeLayout>

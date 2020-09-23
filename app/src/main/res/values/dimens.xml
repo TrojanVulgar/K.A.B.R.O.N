@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dp1">1.0dip</dimen>
+    <dimen name="dp10">10.0dip</dimen>
+    <dimen name="dp16">16.0dip</dimen>
+    <dimen name="dp2">2.0dip</dimen>
+    <dimen name="dp4">4.0dip</dimen>
+    <dimen name="dp5">5.0dip</dimen>
+    <dimen name="dp6">6.0dip</dimen>
+    <dimen name="dp8">8.0dip</dimen>
+
+    <dimen name="x_large_font">20.0sp</dimen>
+    <dimen name="x_normal_font">16.0sp</dimen>
+    <dimen name="x_small_font">12.0sp</dimen>
+    <dimen name="xx_large_font">21.0sp</dimen>
+    <dimen name="xx_normal_font">17.0sp</dimen>
+    <dimen name="xx_small_font">13.0sp</dimen>
+    <dimen name="xxx_large_font">22.0sp</dimen>
+    <dimen name="xxx_normal_font">18.0sp</dimen>
+    <dimen name="xxx_small_font">14.0sp</dimen>
+    <dimen name="xxxx_large_font">24.0sp</dimen>
+
+    <dimen name="mediumMargin">8.0dip</dimen>
+
+    <dimen name="login_btn_height">44.0dip</dimen>
+    <dimen name="login_btn_margin_left">22.0dip</dimen>
+    <dimen name="login_btn_margin_right">22.0dip</dimen>
+    <dimen name="login_btn_radius">16.0dip</dimen>
+    <dimen name="login_btn_textsize">16.0sp</dimen>
+    <dimen name="login_facebook_btn_bottom_padding">14.0dip</dimen>
+    <dimen name="login_accountkit_btn_bottom_padding">21.0dip</dimen>
+
+    <dimen name="title_bar_content_text_size">20.0sp</dimen>
+    <dimen name="common_single_line_height">1.0dip</dimen>
+    <dimen name="register_button_confirm_height">46.0dip</dimen>
+    <dimen name="register_button_confirm_margin_top">27.0dip</dimen>
+    <dimen name="register_circleimage_margin_bottom">10.0dip</dimen>
+    <dimen name="register_circleimage_margin_top">22.0dip</dimen>
+
+    <dimen name="register_radiogroup_height">54.0dip</dimen>
+    <dimen name="register_seperate_line_margin_horizon">22.0dip</dimen>
+    <dimen name="register_radio_text_padding_left">8.0dip</dimen>
+    <dimen name="register_radio_text_drawable_padding">4.0dip</dimen>
+    <dimen name="setting_views_margin_left">16.0dip</dimen>
+    <dimen name="setting_button_next_length">48.0dip</dimen>
+    <dimen name="about_icon_length">56.0dip</dimen>
+    <dimen name="about_border_width">16.0dip</dimen>
+    <dimen name="about_app_version_margin_top">4.0dip</dimen>
+    <dimen name="setting_item_with_item">13.0dip</dimen>
+    <dimen name="invite_sms_clear_icon">27.0dip</dimen>
+    <dimen name="chat_item_title_magrin_top">8.0dip</dimen>
+    <dimen name="common_dialog_view_elevation">24.0dip</dimen>
+    <dimen name="common_dialog_message_padding_bottom">22.0dip</dimen>
+    <dimen name="common_dialog_message_padding_left">18.0dip</dimen>
+    <dimen name="common_dialog_message_padding_right">18.0dip</dimen>
+    <dimen name="common_dialog_confirm_button_padding_bottom">12.0dip</dimen>
+    <dimen name="common_dialog_confirm_button_padding_top">12.0dip</dimen>
+    <dimen name="common_single_line_width">1.0dip</dimen>
+    <dimen name="card_corner_radius">12.0dip</dimen>
+    <dimen name="card_info_bar_margin_horizontal">8.0dip</dimen>
+    <dimen name="card_info_bar_margin_bottom">8.0dip</dimen>
+
+
+</resources>
